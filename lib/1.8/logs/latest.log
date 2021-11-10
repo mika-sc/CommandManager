@@ -1,0 +1,506 @@
+[10:49:59] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[10:49:59] [Server thread/INFO]: Loading properties
+[10:49:59] [Server thread/INFO]: Default game type: SURVIVAL
+[10:49:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[10:49:59] [Server thread/INFO]: Debug logging is disabled
+[10:49:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[10:49:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:49:59] [Server thread/INFO]: Generating keypair
+[10:49:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:49:59] [Server thread/INFO]: Using default channel type
+[10:49:59] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[10:50:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:50:00] [Server thread/INFO]: [NorFriend] Loading NorFriend v2.01.645
+[10:50:00] [Server thread/INFO]: [CommandHelper] Loading CommandHelper v1.0
+[10:50:00] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[10:50:00] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[10:50:00] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[10:50:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[10:50:00] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[10:50:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[10:50:00] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[10:50:00] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[10:50:00] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[10:50:00] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[10:50:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:50:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:50:00] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[10:50:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:50:01] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[10:50:01] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[10:50:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[10:50:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[10:50:01] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[10:50:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[10:50:01] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[10:50:01] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[10:50:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[10:50:01] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+[10:50:03] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[10:50:03] [Server thread/INFO]: [ZMusic] Loading ZMusic v2.0.7
+[10:50:03] [Server thread/INFO]: [ZMusic-Addon] Loading ZMusic-Addon v1.2
+[10:50:03] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build 2395)
+[10:50:03] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+221-1556b91
+[10:50:03] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.19.0-dev+221-1556b91
+[10:50:03] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0-dev+221-1556b91
+[10:50:03] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.4.2
+[10:50:03] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[10:50:03] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.0-dev+221-1556b91
+[10:50:03] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.24.100
+[10:50:03] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:50:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:50:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:50:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:50:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[10:50:03] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[10:50:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[10:50:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:50:03] [Server thread/INFO]: Preparing level "world"
+[10:50:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:50:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:03] [Server thread/INFO]: Mob Spawn Range: 4
+[10:50:03] [Server thread/INFO]: Anti X-Ray: true
+[10:50:03] [Server thread/INFO]: 	Engine Mode: 1
+[10:50:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:50:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:50:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:50:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:50:03] [Server thread/INFO]: Max Entity Collisions: 8
+[10:50:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:50:03] [Server thread/INFO]: Structure Info Saving: true
+[10:50:03] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:50:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:03] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:03] [Server thread/INFO]: View Distance: 10
+[10:50:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:50:03] [Server thread/INFO]: Clear tick list: false
+[10:50:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:50:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:03] [Server thread/INFO]: Mob Spawn Range: 4
+[10:50:03] [Server thread/INFO]: Anti X-Ray: true
+[10:50:03] [Server thread/INFO]: 	Engine Mode: 1
+[10:50:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:50:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:50:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:50:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:50:03] [Server thread/INFO]: Max Entity Collisions: 8
+[10:50:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:50:03] [Server thread/INFO]: Structure Info Saving: true
+[10:50:03] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:50:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:03] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:03] [Server thread/INFO]: View Distance: 10
+[10:50:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:50:03] [Server thread/INFO]: Clear tick list: false
+[10:50:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:50:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:03] [Server thread/INFO]: Mob Spawn Range: 4
+[10:50:03] [Server thread/INFO]: Anti X-Ray: true
+[10:50:03] [Server thread/INFO]: 	Engine Mode: 1
+[10:50:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[10:50:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[10:50:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[10:50:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[10:50:03] [Server thread/INFO]: Max Entity Collisions: 8
+[10:50:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[10:50:03] [Server thread/INFO]: Structure Info Saving: true
+[10:50:03] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[10:50:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:03] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:03] [Server thread/INFO]: View Distance: 10
+[10:50:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[10:50:03] [Server thread/INFO]: Clear tick list: false
+[10:50:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 13576259540495119)
+[10:50:04] [Server thread/INFO]: Preparing spawn area: 55%
+[10:50:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: 13576259540495119)
+[10:50:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: 13576259540495119)
+[10:50:06] [Server thread/INFO]: [NorFriend] Enabling NorFriend v2.01.645
+[10:50:06] [Server thread/INFO]: [NorFriend] [Vault] - Ecomomy API was loading successful!!
+[10:50:06] [Server thread/INFO]: [CommandHelper] Enabling CommandHelper v1.0
+[10:50:06] [Server thread/INFO]: [CommandHelper] ²å¼ş¼ÓÔØ³É¹¦
+[10:50:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[10:50:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:50:06] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[10:50:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[10:50:06] [Server thread/INFO]: [ZMusic] Enabling ZMusic v2.0.7
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕıÔÚ¼ÓÔØÖĞ....[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕıÔÚ×¢²áModÍ¨ĞÅÆµµÀ...[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mAllMusic[m][0;32;1m ÆµµÀ×¢²áÍê±Ï.[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mAudioBuffer[m][0;32;1m ÆµµÀ×¢²áÍê±Ï.[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½[0;33;1mPlaceholderAPI[0;32;1m, ÕıÔÚ×¢²á...[m
+
+[10:50:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: zmusic
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mPlaceholderAPI[m] [0;32;1m×¢²á³É¹¦![m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½Vault, ¾­¼Ã¹¦ÄÜÉúĞ§.[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½ViaVersion, ¸ß°æ±¾×ª·¢¹¦ÄÜÉúĞ§.[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·şÎñ¶Ë°æ±¾µÍÓÚ1.9£¬²»Ö§³ÖBossBar[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·şÎñ¶Ë°æ±¾µÍÓÚ1.12£¬²»Ö§³ÖHudÏÔÊ¾[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·şÎñ¶Ë°æ±¾µÍÓÚ1.12£¬²»Ö§³Ö½ø¶È[m
+
+[10:50:06] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³É¹¦¼ÓÔØÅäÖÃÎÄ¼ş![m
+
+[10:50:06] [Server thread/INFO]: [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+[10:50:06] [Server thread/WARN]: [ZMusic-Addon] ¡ìcÇëÎğÔÚ×Ó·ş°²×°ZMusic²å¼ş
+[10:50:06] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build 2395)
+[10:50:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+221-1556b91
+[10:50:06] [Server thread/INFO]: [Essentials] You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[10:50:06] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[10:50:06] [Server thread/INFO]: No kits found to migrate.
+[10:50:07] [Server thread/INFO]: Loaded 853 items from items.csv.
+[10:50:07] [Server thread/INFO]: Using locale zh_CN
+[10:50:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:50:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:50:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:50:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[10:50:07] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.0-dev+221-1556b91
+[10:50:07] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[10:50:07] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[10:50:07] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0-dev+221-1556b91
+[10:50:07] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[10:50:07] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.4.2
+[10:50:08] [Server thread/INFO]: [0;36;22mServer version: v1_8_R3 - 1.8.8 - spigot[m
+
+[10:50:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil
+[10:50:08] [Server thread/INFO]: PlaceholderAPI hooked.[m
+
+[10:50:08] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m74ms[m
+
+[10:50:08] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[10:50:08] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+
+[10:50:08] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+
+[10:50:08] [Thread-9/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+
+[10:50:08] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+
+[10:50:08] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+
+[10:50:08] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[10:50:08] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[10:50:08] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.24.100
+[10:50:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: DelayCommand
+[10:50:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mPlaceholderAPI registered OK![m
+
+[10:50:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mInitializing configs......[m
+
+[10:50:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMD v1.24.100ÒÑ¼ÓÔØ£¡------By Normally_422[m
+
+[10:50:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mRunning on Minecraft version [0;36;22m1.8.8-R0.1-SNAPSHOT[m
+
+[10:50:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:50:08] [Server thread/INFO]: Done (5.256s)! For help, type "help" or "?"
+[10:50:08] [Craft Scheduler Thread - 3/INFO]: [Essentials] ¡ì6ÕıÔÚ»ñÈ¡°æ±¾ĞÅÏ¢...
+[10:50:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[10:50:08] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕıÔÚ³¢ÊÔµÇÂ¼ÍøÒ×ÔÆÒôÀÖ...[m
+
+[10:50:08] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[10:50:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:50:08] [Server thread/INFO]: [Citizens] ÒÑÔØÈë 0 ¸öNPC.
+[10:50:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:50:08] [Craft Scheduler Thread - 19/INFO]: [Vault] Checking for Updates ... 
+[10:50:08] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[10:50:08] [Server thread/INFO]: [0;33;22mNo expansions were registered![m
+
+[10:50:09] [Craft Scheduler Thread - 8/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_SL.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 15/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_LT.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 18/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_FR.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 8/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 14/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_IT.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 5/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_NO.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 14/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 13/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_ES.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 12/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_DE.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 16/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_TR.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 11/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_CN.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 9/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_RU.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 11/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 16/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 12/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 13/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 5/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 4/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_ZH.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 2/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_CZ.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 4/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 2/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 18/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 15/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 17/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_SK.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 6/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_PL.yml file into plugins\CMILib\Translations\ folder [m
+
+[10:50:09] [Craft Scheduler Thread - 6/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 9/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 17/INFO]: You can do it manually or try again later or simply ignore it[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1mµÇÂ¼Ê§°Ü: 501[m
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.lambda$loginNetease$1(OtherUtils.java:157)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.loginNetease(OtherUtils.java:177)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at cn.iqianye.mc.zmusic.ZMusic.lambda$loadEnd$0(ZMusic.java:61)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+
+[10:50:09] [Craft Scheduler Thread - 10/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕıÔÚ¼ì²é¸üĞÂ...[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑÊÇ×îĞÂ°æ±¾![m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³õÊ¼»¯ÓïÑÔÏµÍ³...[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼şzh_CN[ÖĞÎÄ (ÖĞ¹ú)]¼ÓÔØÍê³É[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼ş×÷Õß: ÕæĞÄ[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼ş×÷Õß: ÕæĞÄ[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²©¿Í£ºwww.zhenxin.xyz[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mQQ£º1307993674[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼ş½»Á÷Èº£º1032722724[m
+
+[10:50:09] [Craft Scheduler Thread - 10/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼şÒÑ¼ÓÔØÍê³É![m
+
+[10:50:09] [Craft Scheduler Thread - 19/INFO]: [Vault] No new version available
+[10:50:10] [Craft Scheduler Thread - 3/WARN]: [Essentials] ¡ì4ÄãÕıÔÚÔËĞĞµÄEssentialsXÒÑ¹ıÆÚ¡ìc71¡ì4¸ö¿ª·¢°æ±¾£¡
+[10:50:10] [Craft Scheduler Thread - 3/WARN]: [Essentials] ¡ì4ÔÚ´Ë´¦ÏÂÔØ£º¡ìchttps://essentialsx.net/downloads.html
+[10:50:17] [Server thread/INFO]: [0;33;1mDelayCommand[DCMD] [0;32;22mVersion [0;36;22m1.2 Release [0;36;22m4[0;32;22m, Build [0;36;22m100 [0;32;22m(v[0;36;22m1.24.100[0;32;22m),By Normally_422[m
+
+[10:50:19] [Server thread/INFO]: [0;33;1m=======[0;36;22mDelayCommand Helps[0;33;1m=======[m
+
+[10:50:19] [Server thread/INFO]: [0;33;1m/dcmd help  [0;32;22m ÏÔÊ¾´Ë°ïÖú. [0;33;1m/[0;32;22m Show helps.[m
+
+[10:50:19] [Server thread/INFO]: [0;33;1m/dcmd ver   [0;32;22m ÏÔÊ¾°æ±¾. [0;33;1m/[0;32;22m Show Version.[m
+
+[10:50:19] [Server thread/INFO]: [0;33;1m/dcmd predo <player> <aftercommand>   [0;32;22mÔÚ<player>ÉÏÏßÊ±Ö´ĞĞ<aftercommand>ÃüÁî. [0;33;1m/[0;32;22m Do <aftercommand> when <player> online.[m
+
+[10:50:19] [Server thread/INFO]: [0;33;1m/dcmd predodel <player> <aftercommand>   [0;32;22mÉ¾³ı<player>ÉÏÏßÊ±Ö´ĞĞµÄ<aftercommand>ÃüÁî. [0;33;1m/[0;32;22m Delete PREDO commands.[m
+
+[10:50:44] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÃüÁî³É¹¦ÉèÖÃ£¡[m
+
+[10:50:44] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÍæ¼Ò: [0;36;22mNormally_422, [0;32;22mÃüÁî: [0;36;22mkill Normally_422 [0;32;22m.[m
+
+[10:50:44] [Server thread/INFO]: Player:Normally_422 Command:kill Normally_422
+
+[10:50:51] [User Authenticator #1/INFO]: UUID of player Normally_422 is ecfffea5-b761-41dc-929f-1ff284e3d39a
+[10:50:51] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to NorFriend v2.01.645
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.onPlayerJoin(PlayerList.java:298) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:157) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:814) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.plugin.Plugin.getDataFolder()" because the return value of "org.bukkit.plugin.PluginManager.getPlugin(String)" is null
+	at FOL.Friend.Message.FriendsYML.reloadFriends(FriendsYML.java:28) ~[?:?]
+	at FOL.Friend.Message.FriendsYML.getFriends(FriendsYML.java:44) ~[?:?]
+	at FOL.Friend.PlayerEvent.PlayerJoin.onjoin(PlayerJoin.java:32) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	... 14 more
+[10:50:51] [Server thread/INFO]: Name:Normally_422
+
+[10:50:51] [Server thread/INFO]: CONSOLE issued server command: /kill Normally_422
+[10:50:52] [Server thread/INFO]: Normally_422 died
+[10:50:52] [Server thread/INFO]: [0;31;1mNormally_422[0;33;22m±»É±ËÀÁË¡£[m
+
+[10:50:52] [Server thread/INFO]: Normally_422[/127.0.0.1:54009] logged in with entity id 140 at ([world]216.21329717363705, 66.0, 76.06533537024933)
+[10:50:59] [Server thread/INFO]: Normally_422 lost connection: Disconnected
+[10:50:59] [Server thread/INFO]: [-] Normally_422
+[10:51:04] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÃüÁî³É¹¦ÉèÖÃ£¡[m
+
+[10:51:04] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÍæ¼Ò: [0;36;22mNormally_422, [0;32;22mÃüÁî: [0;36;22mkill Normally_422 [0;32;22m.[m
+
+[10:51:04] [Server thread/INFO]: Player:Normally_422 Command:kill Normally_422
+
+[10:51:08] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÃüÁî³É¹¦É¾³ı£¡[m
+
+[10:51:08] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÍæ¼Ò: [0;36;22mNormally_422, [0;32;22mÃüÁî: [0;36;22mkill Normally_422 [0;32;22m.[m
+
+[10:51:08] [Server thread/INFO]: Player:Normally_422 Command:kill Normally_422
+
+[10:51:08] [Server thread/INFO]: Name:Normally_422
+
+[10:51:20] [User Authenticator #2/INFO]: UUID of player Normally_422 is ecfffea5-b761-41dc-929f-1ff284e3d39a
+[10:51:20] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to NorFriend v2.01.645
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.onPlayerJoin(PlayerList.java:298) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.PlayerList.a(PlayerList.java:157) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.LoginListener.b(LoginListener.java:144) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.LoginListener.c(LoginListener.java:54) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:231) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.ServerConnection.c(ServerConnection.java:148) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:814) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	at java.base/java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.plugin.Plugin.getDataFolder()" because the return value of "org.bukkit.plugin.PluginManager.getPlugin(String)" is null
+	at FOL.Friend.Message.FriendsYML.reloadFriends(FriendsYML.java:28) ~[?:?]
+	at FOL.Friend.Message.FriendsYML.getFriends(FriendsYML.java:44) ~[?:?]
+	at FOL.Friend.PlayerEvent.PlayerJoin.onjoin(PlayerJoin.java:32) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest_2.jar:git-Spigot-db6de12-18fbb24]
+	... 14 more
+[10:51:20] [Server thread/INFO]: Name:Normally_422
+
+[10:51:20] [Server thread/INFO]: Normally_422[/127.0.0.1:54051] logged in with entity id 199 at ([world]215.0, 66.0, 46.0)
+[10:51:22] [Server thread/INFO]: Normally_422 lost connection: Internal Exception: java.io.IOException: ÄãµÄÖ÷»úÖĞµÄÈí¼şÖĞÖ¹ÁËÒ»¸öÒÑ½¨Á¢µÄÁ¬½Ó¡£
+[10:51:22] [Server thread/INFO]: [-] Normally_422
+[10:54:57] [Server thread/INFO]: Stopping the server
+[10:54:57] [Server thread/INFO]: Stopping server
+[10:54:57] [Server thread/INFO]: [DelayCommand] Disabling DelayCommand v1.24.100
+[10:54:57] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMDÒÑ¹Ø±Õ£¡[m
+
+[10:54:57] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mSaving configs......[m
+
+[10:54:57] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[10:54:57] [Server thread/INFO]: [CommandNPC] Disabling CommandNPC v1.9.1
+[10:54:57] [Server thread/INFO]: [CMILib] Disabling CMILib v1.0.4.2
+[10:54:57] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.0-dev+221-1556b91
+[10:54:57] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.19.0-dev+221-1556b91
+[10:54:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+221-1556b91
+[10:54:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[10:54:57] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.28-SNAPSHOT (build 2395)
+[10:54:57] [Server thread/INFO]: [ZMusic] Disabling ZMusic v2.0.7
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕıÔÚĞ¶ÔØÖĞ....[m
+
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼ş×÷Õß: ÕæĞÄ[m
+
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²©¿Í£ºwww.zhenxin.xyz[m
+
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mQQ£º1307993674[m
+
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼ş½»Á÷Èº£º1032722724[m
+
+[10:54:57] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼şÒÑĞ¶ÔØÍê³É![m
+
+[10:54:57] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[10:54:57] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[10:54:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.1
+[10:54:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:54:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[10:54:57] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[10:54:57] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.10
+[10:54:57] [Server thread/INFO]: [CommandHelper] Disabling CommandHelper v1.0
+[10:54:57] [Server thread/INFO]: [CommandHelper] ²å¼ş¹Ø±Õ³É¹¦
+[10:54:57] [Server thread/INFO]: [NorFriend] Disabling NorFriend v2.01.645
+[10:54:57] [Server thread/INFO]: Saving players
+[10:54:57] [Server thread/INFO]: Saving worlds
+[10:54:57] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[10:54:57] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[10:54:57] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

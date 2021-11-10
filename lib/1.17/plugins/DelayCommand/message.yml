@@ -1,0 +1,36 @@
+trver: 1.32.135
+PluEnaen: §e[DelayCommand] §2DCMD §3Version 1.32.135 §2has been enabled.------By Normally_422
+PluEnacn: §e[DelayCommand] §2DCMD §3v1.32.135§2已加载！------By Normally_422
+PluDisaen: §e[DelayCommand] §2Goodbye. :D
+PluDisacn: §e[DelayCommand] §2DCMD已关闭！
+LoCiten: §e[DelayCommand] §4CitizensII not found!
+LoCitcn: §e[DelayCommand] §4未找到CitizensII插件!
+LoComen: §e[DelayCommand] §4CommandNPC not found!
+LoComcn: §e[DelayCommand] §4未找到CommandNPC插件!
+Ver: §eDelayCommand[DCMD] §2Version §31.3 Alpha §32§2, Build §3135 §2(v§31.32.135§2),By
+  Normally_422
+NorOPen: §e[DCMD] §4Sorry! You don't have enough permission to do this.
+NorOPcn: §e[DCMD] §4你没有足够的权限执行此命令！
+CmdSeten: §e[DCMD] §2Command set successfully.
+CmdSetcn: §e[DCMD] §2命令成功设置！
+CmdDelen: §e[DCMD] §2Command delete successfully.
+CmdDelcn: §e[DCMD] §2命令成功删除！
+CmdLisen: '§e[DCMD] §2Player: §3%Player%, §2Command: §3%Command% §2.'
+CmdLiscn: '§e[DCMD] §2玩家: §3%Player%, §2命令: §3%Command% §2.'
+CmdTimen: '§e[DCMD] §2Time: §3%Player%, §2Command: §3%Command% §2.'
+CmdTimcn: '§e[DCMD] §2时间: §3%Player%, §2命令: §3%Command% §2.'
+PapiUnfen: §e[DelayCommand] §4PlaceholderAPI not found!
+PapiUnfcn: §e[DelayCommand] §4未找到PlaceholderAPI！PAPI功能将不生效！
+WrngCmdcn: §e[DCMD] §4语法错误！输入/dcmd help查询命令.
+WrngCmden: §e[DCMD] §4Wrong args! Type /dcmd help for helps.
+Catchken: §e[DelayCommand] §2CatSeedLogin Checked!
+Catchkcn: §e[DelayCommand] §2已检测到CatSeedLogin!
+Authchken: §e[DelayCommand] §2AuthMeReloaded Checked!
+Authchkcn: §e[DelayCommand] §2已检测到AuthMeReloaded!
+Nonechken: §e[DelayCommand] §2Login plugins not found!(This is not a error)
+Nonechkcn: §e[DelayCommand] §2未找到登录插件!
+Chkupen: '§e[DelayCommand] §2Checking for Updates ... '
+Chkupcn: '§e[DelayCommand] §2正在检查更新 ... '
+Downcn: §e[DCMD] §2新版本已下载至.\plugins\DelayCommand文件夹！
+Downen: §e[DCMD] §2The latest version has been downloaded at the folder .\plugins\DelayCommand
+  !

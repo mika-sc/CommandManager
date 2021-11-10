@@ -1,0 +1,86 @@
+Friend:
+  Command:
+    ERROR: §c你不是玩家，无法使用指令!!”）
+    invite: §6/FOLFriend invite <player> §7- 邀请玩家成为好友
+    deny: §6/FOLFriend deny <player> §7- 拒绝成为该玩家的好友
+    accept: §6/FOLFriend accept <player> §7- 接受玩家成为好友
+    GUI: §6/FOLFriend GUI §7- 开启好友介面
+    remove: §6/FOLFriend Remove <player> §7- 刪除好友
+    apply: §6/FOLFriend apply §7- 查看好友申请
+    reload: §6/FOLFriend reload §7- 重新读取插件
+    mail: §6/FOLFriend mail <player> <message> §7-給玩家留言
+  Invnite:
+    NoPlayerName: '§6用法: /FOLFriend invite <player> §7- 查无玩家，请在试一遍'
+  Remove:
+    NoPlayerName: '§6用法: /FOLFriend remove <player> §7- 查无玩家，请在试一遍'
+  Deny:
+    NoPlayerName: '§6用法: /FOLFriend deny <player> §7- 查无玩家，请在试一遍'
+  Accept:
+    NoPlayerName: '§6用法: /FOLFriend accept <player> §7- 查无玩家，请在试一遍'
+  Mail:
+    error: '§6用法: /FOLFriend mail <player> <message> §7- 用法错误，请在试一遍'
+    amount: §e信箱裡有信
+    check: §7[点我]
+    checkme: §7点我查看
+  Invite:
+    friendexists: §7 你们已经成为朋友
+    applylist: §7 %FOLFriend_player_name%想与你成为好友
+    'yes': §a[ 接受 ]
+    sayyes: §7点击接受
+    'no': §a[ 拒絕 ]
+    sayno: §7点击拒絕
+    alreadlyapply: §7已经申请过了!!
+    playeralreadlyapplyyou: §7对方已申请!!
+    playererror: §7 无法邀请自己!!
+    Confirmsend: §a邀请发送成功!!
+  accept:
+    noplayer: §7该玩家没有申请
+    addfriends_player: §a%FOLFriend_player_name% 和你成为了朋友
+    addfriends_target: §a%FOLFriend_target_name% 和你成为了朋友
+  deny:
+    denymessage: §c拒絕了你的邀請
+  applylist:
+    list: §6申請列表
+  apply:
+    noplayer: §7沒有玩家成为成為好友
+  remove:
+    noplayer: §7该玩家不是你的好友
+    text: §7确认删除此好友
+    removeplayer: '§7解除好友关系: %FOLFriend_target_name%'
+    unfriends: §7%FOLFriend_player_name%与你解除好友关系
+  GUI:
+    Name: §2好友介面
+    online: §a(线上)
+    offline: §c(离线)
+    level: '§fLV:'
+    Friendlist: §e好友列表
+    metalist: §e查看好友
+    Back: §6离开
+    Backlist: §7点击我离开
+    apply: §6好友申请
+    applylist: §7点我查看申请成为好友的玩家
+    remove: §6刪除好友
+    removelist: §7点我开启删除好友介面
+    Mail: §6信箱
+    Maillist: §7点我开启信箱介面
+    shift-removeMail: §c[Shift+LEFT] 刪除此邮件
+    shiftkick: §c[Shift+LEFT] 刪除此好友
+    shiftapply: §a[Shift+RIGHT] 新增此好友
+    shift1apply: §c[Shift+LEFT] 拒絕玩家邀请
+    leftclick-tp: §a[LEFT CLICK] 传送到此好友
+    status: '§6状态: '
+    gift: §6请选择想要送礼的玩家
+    giftlist: §7点我选择
+  shift-Click:
+    invite: |
+      §6我想和§f%FOLFriend_target_name%§6成为好友
+  Chat:
+    Notonline: §7好友不在线上
+  tp:
+    teleport: §6传送中...
+    nomoney: §c金额不足，无法传送
+    teleportmiss: §7传送失败，传送时请勿移动
+  full: §7好友已满
+FOLFriend:
+  Channels:
+    message: '§a[好友频道] '

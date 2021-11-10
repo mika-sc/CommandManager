@@ -1,0 +1,386 @@
+[11:09:09] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[11:09:09] [Server thread/INFO]: Loading properties
+[11:09:09] [Server thread/INFO]: Default game type: SURVIVAL
+[11:09:09] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1.7.9-R0.2-208-ge0f2e95 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[11:09:09] [Server thread/INFO]: Debug logging is disabled
+[11:09:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:09:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:09:09] [Server thread/INFO]: Generating keypair
+[11:09:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:09:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:09:10] [Server thread/ERROR]: Could not load 'plugins\PlaceholderAPI-2.10.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:336) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:258) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:369) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.<clinit>(CloudExpansionManager.java:64) ~[?:?]
+	at me.clip.placeholderapi.PlaceholderAPIPlugin.<init>(PlaceholderAPIPlugin.java:77) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.<clinit>(CloudExpansionManager.java:64) ~[?:?]
+	at me.clip.placeholderapi.PlaceholderAPIPlugin.<init>(PlaceholderAPIPlugin.java:77) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	... 6 more
+[11:09:10] [Server thread/ERROR]: Could not load 'plugins\ViaVersion-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:336) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:258) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:369) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.<init>(ProtocolManagerImpl.java:104) ~[?:?]
+	at com.viaversion.viaversion.ViaManagerImpl.<init>(ViaManagerImpl.java:51) ~[?:?]
+	at com.viaversion.viaversion.ViaManagerImpl$ViaManagerBuilder.build(ViaManagerImpl.java:352) ~[?:?]
+	at com.viaversion.viaversion.ViaVersionPlugin.<init>(ViaVersionPlugin.java:80) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	... 6 more
+[11:09:10] [Server thread/ERROR]: Could not load 'plugins\ViaBackwards-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:225) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:369) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+[11:09:10] [Server thread/ERROR]: Could not load 'plugins\ViaRewind-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:225) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:369) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+[11:09:11] [Server thread/INFO]: [NorFriend] Loading NorFriend v2.01.645
+[11:09:11] [Server thread/INFO]: [CommandHelper] Loading CommandHelper v1.0
+[11:09:11] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[11:09:11] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:09:11] [Server thread/ERROR]: io/netty/util/Version initializing ProtocolLib v4.7.1-SNAPSHOT-b530 (Is it up to date?)
+java.lang.NoClassDefFoundError: io/netty/util/Version
+	at com.comphenix.protocol.utility.NettyVersion.detectVersion(NettyVersion.java:20) ~[?:?]
+	at com.comphenix.protocol.utility.NettyVersion.getVersion(NettyVersion.java:14) ~[?:?]
+	at com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:176) ~[?:?]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:374) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.ClassNotFoundException: io.netty.util.Version
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 7 more
+[11:09:11] [Server thread/INFO]: [ZMusic] Loading ZMusic v2.0.7
+[11:09:11] [Server thread/INFO]: [ZMusic-Addon] Loading ZMusic-Addon v1.2
+[11:09:11] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.13-SNAPSHOT (build 1150)
+[11:09:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+221-1556b91
+[11:09:11] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.19.0-dev+221-1556b91
+[11:09:11] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0-dev+221-1556b91
+[11:09:11] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.4.2
+[11:09:11] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[11:09:11] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.0-dev+221-1556b91
+[11:09:11] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.24.100
+[11:09:11] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:09:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:09:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:09:11] [Server thread/ERROR]: Error occurred while enabling Vault v1.7.3-b131 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at net.milkbowl.vault.Vault.onEnable(Vault.java:188) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:153) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 9 more
+[11:09:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:09:11] [Server thread/ERROR]: ******************************************************
+[11:09:11] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[11:09:11] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[11:09:11] [Server thread/ERROR]: ******************************************************
+[11:09:11] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:09:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:09:11] [Server thread/INFO]: Preparing level "world"
+[11:09:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:09:11] [Server thread/INFO]: View Distance: 10
+[11:09:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:09:11] [Server thread/INFO]: Clear tick list: false
+[11:09:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:09:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:09:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:09:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:09:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:09:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:09:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:09:11] [Server thread/INFO]: Mob Spawn Range: 4
+[11:09:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:09:11] [Server thread/INFO]: Alternative Hopper Ticking: false
+[11:09:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:09:11] [Server thread/INFO]: Random Lighting Updates: false
+[11:09:11] [Server thread/INFO]: Structure Info Saving: true
+[11:09:11] [Server thread/INFO]: Anti X-Ray: true
+[11:09:11] [Server thread/INFO]: 	Engine Mode: 1
+[11:09:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:09:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:09:11] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:09:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:09:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:09:11] [Server thread/INFO]: Max TNT Explosions: 100
+[11:09:11] [Server thread/INFO]: Max Entity Collisions: 8
+[11:09:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:09:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:09:12] [Server thread/INFO]: View Distance: 10
+[11:09:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:09:12] [Server thread/INFO]: Clear tick list: false
+[11:09:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:09:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:09:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:09:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:09:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:09:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:09:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Mob Spawn Range: 4
+[11:09:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:09:12] [Server thread/INFO]: Alternative Hopper Ticking: false
+[11:09:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:09:12] [Server thread/INFO]: Random Lighting Updates: false
+[11:09:12] [Server thread/INFO]: Structure Info Saving: true
+[11:09:12] [Server thread/INFO]: Anti X-Ray: true
+[11:09:12] [Server thread/INFO]: 	Engine Mode: 1
+[11:09:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:09:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:09:12] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:09:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:09:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:09:12] [Server thread/INFO]: Max TNT Explosions: 100
+[11:09:12] [Server thread/INFO]: Max Entity Collisions: 8
+[11:09:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:09:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:09:12] [Server thread/INFO]: View Distance: 10
+[11:09:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:09:12] [Server thread/INFO]: Clear tick list: false
+[11:09:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:09:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:09:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:09:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:09:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:09:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:09:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:09:12] [Server thread/INFO]: Mob Spawn Range: 4
+[11:09:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:09:12] [Server thread/INFO]: Alternative Hopper Ticking: false
+[11:09:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:09:12] [Server thread/INFO]: Random Lighting Updates: false
+[11:09:12] [Server thread/INFO]: Structure Info Saving: true
+[11:09:12] [Server thread/INFO]: Anti X-Ray: true
+[11:09:12] [Server thread/INFO]: 	Engine Mode: 1
+[11:09:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:09:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:09:12] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:09:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:09:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:09:12] [Server thread/INFO]: Max TNT Explosions: 100
+[11:09:12] [Server thread/INFO]: Max Entity Collisions: 8
+[11:09:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:09:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5083776173246885075)
+[11:09:13] [Server thread/INFO]: Preparing spawn area: 8%
+[11:09:14] [Server thread/INFO]: Preparing spawn area: 25%
+[11:09:15] [Server thread/INFO]: Preparing spawn area: 45%
+[11:09:16] [Server thread/INFO]: Preparing spawn area: 82%
+[11:09:16] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5083776173246885075)
+[11:09:17] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5083776173246885075)
+[11:09:17] [Server thread/INFO]: [NorFriend] Enabling NorFriend v2.01.645
+[11:09:17] [Server thread/INFO]: [NorFriend] [Vault] - Ecomomy API was loading successful!!
+[11:09:17] [Server thread/INFO]: [CommandHelper] Enabling CommandHelper v1.0
+[11:09:17] [Server thread/INFO]: [CommandHelper] ≤Âº˛º”‘ÿ≥…π¶
+[11:09:17] [Server thread/INFO]: [ZMusic] Enabling ZMusic v2.0.7
+[11:09:17] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m’˝‘⁄º”‘ÿ÷–....[m
+[11:09:17] [Server thread/ERROR]: Error occurred while enabling ZMusic v2.0.7 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at cn.iqianye.mc.zmusic.ZMusicBukkit.onEnable(ZMusicBukkit.java:36) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.n(MinecraftServer.java:360) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.g(MinecraftServer.java:334) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.a(MinecraftServer.java:290) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:210) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 12 more
+[11:09:17] [Server thread/INFO]: [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+[11:09:17] [Server thread/WARN]: [ZMusic-Addon] °Ïc«ÎŒ‘⁄◊”∑˛∞≤◊∞ZMusic≤Âº˛
+[11:09:17] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.13-SNAPSHOT (build 1150)
+[11:09:17] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[11:09:17] [Server thread/ERROR]: [Citizens] Unable to find Rhino classes - javascript scripts won't see non-CraftBukkit classes
+[11:09:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+221-1556b91
+[11:09:17] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:09:18] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:09:18] [Server thread/INFO]: No kits found to migrate.
+[11:09:18] [Server thread/INFO]: Loaded 853 items from items.csv.
+[11:09:18] [Server thread/INFO]: Using locale zh_CN
+[11:09:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:09:18] [Server thread/ERROR]: java.lang.NoClassDefFoundError: com/google/gson/JsonSyntaxException
+[11:09:18] [Server thread/WARN]: java.lang.NoClassDefFoundError: com/google/gson/JsonSyntaxException
+[11:09:18] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:429)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.MinecraftServer.n(MinecraftServer.java:360)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.MinecraftServer.g(MinecraftServer.java:334)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.MinecraftServer.a(MinecraftServer.java:290)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:210)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458)
+[11:09:18] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628)
+[11:09:18] [Server thread/WARN]: Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonSyntaxException
+[11:09:18] [Server thread/WARN]: 	at java.net.URLClassLoader.findClass(Unknown Source)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101)
+[11:09:18] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86)
+[11:09:18] [Server thread/WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[11:09:18] [Server thread/WARN]: 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[11:09:18] [Server thread/WARN]: 	... 12 more
+[11:09:18] [Server thread/ERROR]: ’‚ø…“‘»√ƒ„µƒ∑˛ŒÒ∆˜¡¢º¥÷ÿ‘ÿ°£µ´ƒ„Œ™ ≤√¥“™’‚—˘◊ˆƒÿ£ø«Î≤ª“™÷∏Õ˚EssentialsXÕ≈∂”ª·Ã·π© π”√/reload√¸¡Ó∫Û∑¢…˙Œ Ã‚µƒ»Œ∫Œ÷ß≥÷°£
+[11:09:18] [Server thread/ERROR]: Error occurred while enabling Essentials v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NullPointerException
+	at com.earth2me.essentials.perm.PermissionsHandler.unregisterContexts(PermissionsHandler.java:114) ~[?:?]
+	at com.earth2me.essentials.Essentials.onDisable(Essentials.java:537) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:318) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at com.earth2me.essentials.Essentials.handleCrash(Essentials.java:1035) ~[?:?]
+	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:448) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.n(MinecraftServer.java:360) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.g(MinecraftServer.java:334) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.a(MinecraftServer.java:290) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:210) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+[11:09:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:09:18] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.0-dev+221-1556b91
+[11:09:18] [Server thread/ERROR]: [EssentialsProtect] Essentials not installed or failed to load. Essentials Protect is in emergency mode now.
+[11:09:18] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0-dev+221-1556b91
+[11:09:18] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.4.2
+[11:09:19] [Server thread/INFO]: [0;36;22mServer version: v1_7_R4 - 1.7.10 - spigot[m
+[11:09:20] [Server thread/ERROR]: Error occurred while enabling CMILib v1.0.4.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/mojang/authlib/GameProfile
+	at net.Zrips.CMILib.Reflections.setSkullTexture(Reflections.java:987) ~[?:?]
+	at net.Zrips.CMILib.Items.CMIItemStack.getHead(CMIItemStack.java:772) ~[?:?]
+	at net.Zrips.CMILib.Items.ItemManager.getItem(ItemManager.java:283) ~[?:?]
+	at net.Zrips.CMILib.Items.ItemManager.getItem(ItemManager.java:174) ~[?:?]
+	at net.Zrips.CMILib.CMILibConfig.load(CMILibConfig.java:118) ~[?:?]
+	at net.Zrips.CMILib.CMILibConfig.load(CMILibConfig.java:71) ~[?:?]
+	at net.Zrips.CMILib.CMILib.onEnable(CMILib.java:192) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.n(MinecraftServer.java:360) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.g(MinecraftServer.java:334) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.a(MinecraftServer.java:290) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:210) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+Caused by: java.lang.ClassNotFoundException: com.mojang.authlib.GameProfile
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.7.10-SNAPSHOT-b1657.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 18 more
+[11:09:20] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[11:09:20] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+[11:09:20] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+[11:09:20] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+[11:09:20] [Thread-8/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+[11:09:20] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+[11:09:20] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[11:09:20] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.24.100
+[11:09:20] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mŒ¥’“µΩPlaceholderAPI£°PAPIπ¶ƒ‹Ω´≤ª…˙–ß£°[m
+[11:09:20] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mInitializing configs......[m
+[11:09:20] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMD v1.24.100“—º”‘ÿ£°------By Normally_422[m
+[11:09:20] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mRunning on Minecraft version [0;36;22m1.7.10-R0.1-SNAPSHOT[m
+[11:09:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:09:20] [Server thread/INFO]: Done (9.018s)! For help, type "help" or "?"
+[11:09:20] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:09:20] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[11:09:20] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[11:09:23] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[11:09:29] [Server thread/INFO]: [0;33;1m[DCMD] [0;31;22m”Ô∑®¥ÌŒÛ£° ‰»Î/dcmd help≤È—Ø√¸¡Ó.[m
+[11:09:35] [Server thread/INFO]: [0;33;1m=======[0;36;22mDelayCommand Helps[0;33;1m=======[m
+[11:09:35] [Server thread/INFO]: [0;33;1m/dcmd help  [0;32;22m œ‘ æ¥À∞Ô÷˙. [0;33;1m/[0;32;22m Show helps.[m
+[11:09:35] [Server thread/INFO]: [0;33;1m/dcmd ver   [0;32;22m œ‘ æ∞Ê±æ. [0;33;1m/[0;32;22m Show Version.[m
+[11:09:35] [Server thread/INFO]: [0;33;1m/dcmd predo <player> <aftercommand>   [0;32;22m‘⁄<player>…œœﬂ ±÷¥––<aftercommand>√¸¡Ó. [0;33;1m/[0;32;22m Do <aftercommand> when <player> online.[m
+[11:09:35] [Server thread/INFO]: [0;33;1m/dcmd predodel <player> <aftercommand>   [0;32;22m…æ≥˝<player>…œœﬂ ±÷¥––µƒ<aftercommand>√¸¡Ó. [0;33;1m/[0;32;22m Delete PREDO commands.[m
+[11:10:06] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22m√¸¡Ó≥…π¶…Ë÷√£°[m
+[11:10:06] [Server thread/INFO]: [0;33;1m[DCMD] [0;32;22mÕÊº“: [0;36;22mNormally_422, [0;32;22m√¸¡Ó: [0;36;22mkill Normally_422 [0;32;22m.[m
+[11:10:06] [Server thread/INFO]: Player:Normally_422 Command:kill Normally_422

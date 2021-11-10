@@ -1,0 +1,141 @@
+[05:47:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:47:50] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[05:47:52] [Worker-Main-1/INFO]: Loaded 7 recipes
+[05:47:54] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[05:47:54] [Server thread/INFO]: Loading properties
+[05:47:54] [Server thread/INFO]: This server is running Paper version git-Paper-373 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 5af80b0)
+[05:47:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:47:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:47:55] [Server thread/INFO]: Default game type: SURVIVAL
+[05:47:55] [Server thread/INFO]: Generating keypair
+[05:47:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:47:55] [Server thread/INFO]: Using default channel type
+[05:47:55] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[05:47:55] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[05:48:00] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:48:07] [Server thread/WARN]: Legacy plugin CommandNPC v1.9.1 does not specify an api-version.
+[05:48:07] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[05:48:07] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[05:48:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[05:48:07] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[05:48:07] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[05:48:07] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[05:48:07] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[05:48:08] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[05:48:08] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[05:48:08] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:48:08] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[05:48:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:48:08] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[05:48:08] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[05:48:08] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[05:48:08] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[05:48:08] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[05:48:08] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[05:48:08] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[05:48:08] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[05:48:08] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+[05:48:09] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[05:48:09] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[05:48:10] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[05:48:10] [Server thread/INFO]: [ZMusic] Loading ZMusic v3.0-21w44a
+[05:48:10] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build 2395)
+[05:48:10] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[05:48:10] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[05:48:10] [Server thread/ERROR]: [BedWars1058] I can't run on your version: v1_17_R1
+[05:48:10] [Server thread/INFO]: [CatSeedLogin] Loading CatSeedLogin v1.3.9-SNAPSHOT
+[05:48:10] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.33.144
+[05:48:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:48:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[05:48:10] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[05:48:10] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[05:48:11] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[05:48:11] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[05:48:11] [Server thread/INFO]: Preparing level "world"
+[05:48:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:48:12] [Server thread/INFO]: Time elapsed: 620 ms
+[05:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:48:12] [Server thread/INFO]: Time elapsed: 165 ms
+[05:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:48:12] [Server thread/INFO]: Time elapsed: 195 ms
+[05:48:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[05:48:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[05:48:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[05:48:13] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.0.1 which is not a depend, softdepend or loadbefore of this plugin.
+[05:48:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:48:13] [Server thread/INFO]: [ZMusic] Enabling ZMusic v3.0-21w44a
+[05:48:14] [Server thread/INFO]: ZMusic >>>   ______  __  __                 _        
+[05:48:14] [Server thread/INFO]: ZMusic >>>  |___  / |  \/  |               (_)       
+[05:48:14] [Server thread/INFO]: ZMusic >>>     / /  | \  / |  _   _   ___   _    ___ 
+[05:48:14] [Server thread/INFO]: ZMusic >>>    / /   | |\/| | | | | | / __| | |  / __|
+[05:48:14] [Server thread/INFO]: ZMusic >>>   / /__  | |  | | | |_| | \__ \ | | | (__ 
+[05:48:14] [Server thread/INFO]: ZMusic >>>  /_____| |_|  |_|  \__,_| |___/ |_|  \___|
+[05:48:14] [Server thread/INFO]: ZMusic >>> 
+[05:48:14] [Server thread/INFO]: ZMusic >>> 	v3.0-21w44a	by ZhenXin
+[05:48:14] [Server thread/INFO]: ZMusic >>> 正在加载中...
+[05:48:14] [Server thread/INFO]: [org.ktorm.database] Connected to jdbc:sqlite:C:\Users\Windows\Desktop\MyFirstPluginReMakebuild14\lib\1.17.1\plugins\ZMusic/zmusic.db, productName: SQLite, productVersion: 3.34.0, logger: org.ktorm.logging.Slf4jLoggerAdapter@b60b25d, dialect: org.ktorm.database.SqlDialectKt$detectDialectImplementation$1@51b81483
+[05:48:14] [Server thread/INFO]: ZMusic >>> 插件加载完毕!
+[05:48:14] [Server thread/INFO]: ZMusic >>> 插件版本: 3.0-21w44a
+[05:48:14] [Server thread/INFO]: ZMusic >>> 当前平台: bukkit
+[05:48:14] [Server thread/INFO]: ZMusic >>> 使用文档: m.zplu.cc
+[05:48:14] [Server thread/INFO]: ZMusic >>> 插件作者: 真心
+[05:48:15] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build 2395)
+[05:48:15] [Server thread/INFO]: [Citizens] 无法使用经济. 是否已启用 Vault?
+[05:48:15] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1*
+[05:48:15] [Server thread/INFO]: [CommandNPC] Vault not found! Economy support for CommandNPC has been disabled.
+[05:48:15] [Server thread/INFO]: [CommandNPC] Initiating Database
+[05:48:15] [Server thread/INFO]: [CommandNPC] Injecting command info into Citizens.
+[05:48:15] [Thread-8/INFO]: [CommandNPC] Loading commands complete!
+[05:48:16] [Server thread/INFO]: [CommandNPC] CommandNPC successfully loaded!
+[05:48:16] [Server thread/INFO]: [CatSeedLogin] Enabling CatSeedLogin v1.3.9-SNAPSHOT
+[05:48:16] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.33.144
+[05:48:16] [Server thread/INFO]: DelayCommand >>> 已检测到CatSeedLogin!
+[05:48:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: DelayCommand
+[05:48:16] [Server thread/INFO]: DelayCommand >>> PlaceholderAPI registered OK!
+[05:48:16] [Server thread/INFO]: DelayCommand >>> Initializing datas......
+[05:48:16] [Server thread/INFO]: DelayCommand >>> Loading configs......
+[05:48:16] [Server thread/INFO]: DelayCommand >>> DCMD v1.33.144已加载！------By Normally_422
+[05:48:16] [Server thread/INFO]: DelayCommand >>> Running on Minecraft server version 1.17.1
+[05:48:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:48:16] [Server thread/INFO]: No expansions were registered!
+[05:48:16] [Server thread/INFO]: Running delayed init tasks
+[05:48:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.17.1 (756)
+[05:48:16] [Craft Scheduler Thread - 1 - CatSeedLogin/INFO]: [CatSeedLogin] 缓存加载 1 个数据
+[05:48:16] [Server thread/INFO]: [Citizens] 已载入 0 个NPC.
+[05:48:16] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[05:48:16] [Server thread/INFO]: Done (22.132s)! For help, type "help"
+[05:48:16] [Server thread/INFO]: Timings Reset
+[05:48:16] [Craft Scheduler Thread - 1 - DelayCommand/INFO]: DelayCommand >>> 正在检查更新 ... 
+[05:48:17] [Craft Scheduler Thread - 1 - DelayCommand/INFO]: DelayCommand >>> The Latest Version: v1.24.102 | Current Version: v1.33.144
+[05:48:17] [Craft Scheduler Thread - 1 - DelayCommand/INFO]: DelayCommand >>> No new version available!
+[05:48:31] [Server thread/INFO]: DelayCommand >>> Version 1.3 Alpha 3, Build 144 (v1.33.144),By Normally_422
+[05:48:52] [Server thread/INFO]: DelayCommand >>> 命令成功设置！
+[05:48:52] [Server thread/INFO]: DelayCommand >>> 玩家: Normally_422, 命令: kill Normally_422 .
+[05:48:52] [Server thread/INFO]: [DelayCommand] [STDOUT] Player:Normally_422 Command:kill Normally_422
+[05:48:52] [Server thread/WARN]: Nag author(s): '[Normally_422]' of 'DelayCommand' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[05:48:55] [Server thread/INFO]: Stopping the server
+[05:48:55] [Server thread/INFO]: Stopping server
+[05:48:55] [Server thread/INFO]: [DelayCommand] Disabling DelayCommand v1.33.144
+[05:48:55] [Server thread/INFO]: DelayCommand >>> DCMD已关闭！
+[05:48:55] [Server thread/INFO]: DelayCommand >>> Saving configs......
+[05:48:55] [Server thread/INFO]: [CatSeedLogin] Disabling CatSeedLogin v1.3.9-SNAPSHOT
+[05:48:55] [Server thread/INFO]: [CommandNPC] Disabling CommandNPC v1.9.1
+[05:48:55] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.28-SNAPSHOT (build 2395)
+[05:48:55] [Server thread/INFO]: [ZMusic] Disabling ZMusic v3.0-21w44a
+[05:48:55] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[05:48:55] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[05:48:55] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.10
+[05:48:55] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.1
+[05:48:55] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[05:48:55] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[05:48:55] [Server thread/INFO]: Saving players
+[05:48:55] [Server thread/INFO]: Saving worlds
+[05:48:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:48:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:48:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:49:00] [Server thread/INFO]: Flushing Chunk IO
+[05:49:00] [Server thread/INFO]: Closing Thread Pool

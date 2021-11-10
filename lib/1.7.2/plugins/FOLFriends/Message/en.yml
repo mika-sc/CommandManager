@@ -1,0 +1,95 @@
+Friend:
+  Command:
+    ERROR: §c you are not player!!
+    invite: §6/FOLFriend invite <player> §7- To send a friend request to a player
+    deny: §6/FOLFriend deny <player> §7- To deny a friend request
+    accept: §6/FOLFriend accept <player> §7- To accept a friend request
+    GUI: §6/FOLFriend GUI §7- To open the Friend Menu
+    remove: §6/FOLFriend Remove <player> §7- To remove a player from the friends list
+    apply: §6/FOLFriend apply §7- To see friend request
+    mail: '§6/FOLFriend mail <player> <message> §7-To send mail to other players while
+      they are away! '
+    reload: §6/FOLFriend reload §7- Reload the plugin!
+  Invite:
+    NoPlayerName: '§6Usage: /FOLFriend invite <player> §7- player not found,please
+      try again!'
+    friendexists: §7 you are friends!!
+    NotOnline: §7 The Player is not Online!!
+    applylist: |
+      §6%FOLFriend_player_name% Want to be friends with you
+    'yes': §a[ YES ]
+    sayyes: §7Click here to accept
+    'no': §a[ NO ]
+    sayno: §7Click here to cancel
+    alreadlyapply: §7Friend request already sent!
+    playeralreadlyapplyyou: §7The player has applied!!
+    playererror: §7 You can't invite yourself
+    Confirmsend: §aInvite confirm success!!
+  Remove:
+    NoPlayerName: '§6Usage: /FOLFriend remove <player> §7- player not found,please
+      try again!'
+  Deny:
+    NoPlayerName: '§6Usage: /FOLFriend deny <player> §7- player not found,please try
+      again!'
+  Accept:
+    NoPlayerName: '§6Usage: /FOLFriend accept <player> §7- player not found,please
+      try again!'
+  Mail:
+    error: '§6Usage: /FOLFriend mail <player> <message> §7- please try again!'
+    amount: §eYou have a mail!!
+    check: §7[Click me]
+    checkme: §7Click here to check mail
+  accept:
+    noplayer: §7The player has not sent you a request
+    addfriends_player: §a%FOLFriend_player_name% become friends with you
+    addfriends_target: §a%FOLFriend_target_name% become friends with you
+  deny:
+    denymessage: §c%FOLFriend_player_name% denied your invite!!
+  applylist:
+    list: §6Apply list
+  apply:
+    noplayer: '§7No player has applied to become a friend '
+  remove:
+    text: §7determine delete this player?
+    noplayer: '§7The player is not your friends '
+    removeplayer: §7Unfriended %FOLFriend_target_name%
+    unfriends: §7%FOLFriend_player_name% Unfriends with you
+  GUI:
+    Name: §2Friend
+    online: §a(Online)
+    offline: §c(Offline)
+    level: '§fLV:'
+    Friendlist: §eFriend List
+    metalist: §echeck friends
+    Back: §6Leave
+    Backlist: §6Click to leave
+    apply: '§6Friend apply '
+    applylist: '§7Click me check the friends apply '
+    remove: §6Remove Friends
+    removelist: §6Click to remove the friend you want to delete
+    shiftkick: §c[Shift+LEFT] remove this friends
+    status: '§6Status: '
+    Mail: §6Mail
+    Maillist: §7Click to check mail
+    shift-removeMail: §c[Shift+LEFT] Remove this Mail
+    shiftapply: §a[Shift+RIGHT] add this friends
+    shift1apply: §c[Shift+LEFT] deny this player invite
+    leftclick-tp: §a[LEFT CLICK] to teleport this friends
+    gift: §6Please choose who you want to give a gift to?
+    giftlist: §7Click me to choose
+  shift-Click:
+    invite: |
+      §aI want to be friends with %FOLFriend_target_name%
+  Chat:
+    Notonline: §7Friend is not Online
+  tp:
+    teleport: §6Teleport...
+    nomoney: '§cNot enough money to teleport '
+    teleportmiss: §7Teleport failed, you can not move when you teleporting!!
+  full: §7friends is full!!
+  Gift:
+    NoPlayerName: '§6Usage: /FOLFriend gift <player> §7- do not find pllayer,please
+      try again!'
+FOLFriend:
+  Channels:
+    message: §a[Friend Channels]§e

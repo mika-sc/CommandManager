@@ -1,0 +1,383 @@
+2021-11-06 11:40:09 [INFO] Starting minecraft server version 1.6.4
+2021-11-06 11:40:09 [INFO] Loading properties
+2021-11-06 11:40:09 [WARNING] server.properties does not exist
+2021-11-06 11:40:09 [INFO] Generating new properties file
+2021-11-06 11:40:09 [INFO] Default game type: SURVIVAL
+2021-11-06 11:40:09 [INFO] Generating keypair
+2021-11-06 11:40:09 [INFO] Starting Minecraft server on *:25565
+2021-11-06 11:40:09 [WARNING] **** FAILED TO BIND TO PORT!
+2021-11-06 11:40:09 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2021-11-06 11:40:09 [WARNING] Perhaps a server is already running on that port?
+2021-11-06 11:40:24 [INFO] Starting minecraft server version 1.6.4
+2021-11-06 11:40:24 [INFO] Loading properties
+2021-11-06 11:40:24 [INFO] Default game type: SURVIVAL
+2021-11-06 11:40:24 [INFO] Generating keypair
+2021-11-06 11:40:24 [INFO] Starting Minecraft server on *:25565
+2021-11-06 11:40:24 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2021-11-06 11:40:27 [SEVERE] Could not load 'plugins\PlaceholderAPI-2.10.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.<clinit>(CloudExpansionManager.java:64)
+	at me.clip.placeholderapi.PlaceholderAPIPlugin.<init>(PlaceholderAPIPlugin.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 16 more
+2021-11-06 11:40:28 [SEVERE] Could not load 'plugins\ViaVersion-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.<init>(ProtocolManagerImpl.java:104)
+	at com.viaversion.viaversion.ViaManagerImpl.<init>(ViaManagerImpl.java:51)
+	at com.viaversion.viaversion.ViaManagerImpl$ViaManagerBuilder.build(ViaManagerImpl.java:352)
+	at com.viaversion.viaversion.ViaVersionPlugin.<init>(ViaVersionPlugin.java:80)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+2021-11-06 11:40:28 [SEVERE] Could not load 'plugins\ViaBackwards-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:195)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2021-11-06 11:40:28 [SEVERE] Could not load 'plugins\ViaRewind-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:195)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2021-11-06 11:40:29 [SEVERE] Could not load 'plugins\DelayCommand-1.24.100.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NullPointerException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:182)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.NullPointerException
+	at com.github.avery.MyFirstPlugin.<init>(MyFirstPlugin.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:178)
+	... 9 more
+2021-11-06 11:40:29 [INFO] [NorFriend] Loading NorFriend v2.01.645
+2021-11-06 11:40:29 [INFO] [CommandHelper] Loading CommandHelper v1.0
+2021-11-06 11:40:29 [INFO] [Vault] Loading Vault v1.7.3-b131
+2021-11-06 11:40:29 [INFO] [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+2021-11-06 11:40:30 [SEVERE] io/netty/util/Version initializing ProtocolLib v4.7.1-SNAPSHOT-b530 (Is it up to date?)
+java.lang.NoClassDefFoundError: io/netty/util/Version
+	at com.comphenix.protocol.utility.NettyVersion.detectVersion(NettyVersion.java:20)
+	at com.comphenix.protocol.utility.NettyVersion.getVersion(NettyVersion.java:14)
+	at com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:176)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:246)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: io.netty.util.Version
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 10 more
+2021-11-06 11:40:30 [INFO] [ZMusic] Loading ZMusic v2.0.7
+2021-11-06 11:40:30 [INFO] [ZMusic-Addon] Loading ZMusic-Addon v1.2
+2021-11-06 11:40:30 [INFO] [Citizens] Loading Citizens v2.0.10-SNAPSHOT (build 1000)
+2021-11-06 11:40:30 [INFO] [Essentials] Loading Essentials v2.19.0-dev+221-1556b91
+2021-11-06 11:40:30 [INFO] [EssentialsProtect] Loading EssentialsProtect v2.19.0-dev+221-1556b91
+2021-11-06 11:40:30 [INFO] [EssentialsChat] Loading EssentialsChat v2.19.0-dev+221-1556b91
+2021-11-06 11:40:30 [INFO] [CMILib] Loading CMILib v1.0.4.2
+2021-11-06 11:40:30 [INFO] [CommandNPC] Loading CommandNPC v1.9.1
+2021-11-06 11:40:30 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.19.0-dev+221-1556b91
+2021-11-06 11:40:30 [INFO] [Vault] Enabling Vault v1.7.3-b131
+2021-11-06 11:40:31 [INFO] [Vault] [Economy] Essentials Economy found: Waiting
+2021-11-06 11:40:31 [INFO] [Vault] [Permission] SuperPermissions loaded as backup permission system.
+2021-11-06 11:40:32 [SEVERE] Error occurred while enabling Vault v1.7.3-b131 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at net.milkbowl.vault.Vault.onEnable(Vault.java:188)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:220)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2021-11-06 11:40:32 [INFO] [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+2021-11-06 11:40:32 [SEVERE] ******************************************************
+2021-11-06 11:40:32 [SEVERE] *** ProtocolLib does not support plugin reloaders! ***
+2021-11-06 11:40:32 [SEVERE] *** Please use the built-in reload command!        ***
+2021-11-06 11:40:32 [SEVERE] ******************************************************
+2021-11-06 11:40:32 [INFO] [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+2021-11-06 11:40:32 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼þ¡£)
+2021-11-06 11:40:32 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼þ¡£)
+2021-11-06 11:40:32 [INFO] Preparing level "world"
+2021-11-06 11:40:32 [INFO] Preparing start region for level 0 (Seed: -6367327255144332879)
+2021-11-06 11:40:33 [INFO] Preparing spawn area: 6%
+2021-11-06 11:40:34 [INFO] Preparing spawn area: 12%
+2021-11-06 11:40:35 [INFO] Preparing spawn area: 27%
+2021-11-06 11:40:37 [INFO] Preparing spawn area: 45%
+2021-11-06 11:40:38 [INFO] Preparing spawn area: 62%
+2021-11-06 11:40:39 [INFO] Preparing spawn area: 79%
+2021-11-06 11:40:40 [INFO] Preparing start region for level 1 (Seed: -6367327255144332879)
+2021-11-06 11:40:41 [INFO] Preparing spawn area: 18%
+2021-11-06 11:40:42 [INFO] Preparing spawn area: 47%
+2021-11-06 11:40:43 [INFO] Preparing spawn area: 62%
+2021-11-06 11:40:44 [INFO] Preparing spawn area: 78%
+2021-11-06 11:40:44 [INFO] Preparing start region for level 2 (Seed: -6367327255144332879)
+2021-11-06 11:40:45 [INFO] Preparing spawn area: 42%
+2021-11-06 11:40:46 [INFO] Preparing spawn area: 98%
+2021-11-06 11:40:46 [INFO] [NorFriend] Enabling NorFriend v2.01.645
+2021-11-06 11:40:47 [INFO] [NorFriend] [Vault] - Ecomomy API was loading successful!!
+2021-11-06 11:40:47 [INFO] [CommandHelper] Enabling CommandHelper v1.0
+2021-11-06 11:40:47 [INFO] [CommandHelper] ²å¼þ¼ÓÔØ³É¹¦
+2021-11-06 11:40:47 [INFO] [ZMusic] Enabling ZMusic v2.0.7
+2021-11-06 11:40:47 [INFO] [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ¼ÓÔØÖÐ....[m
+2021-11-06 11:40:47 [SEVERE] Error occurred while enabling ZMusic v2.0.7 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/BaseComponent
+	at cn.iqianye.mc.zmusic.ZMusicBukkit.onEnable(ZMusicBukkit.java:34)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.BaseComponent
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+2021-11-06 11:40:47 [INFO] [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+2021-11-06 11:40:47 [WARNING] [ZMusic-Addon] ¡ìcÇëÎðÔÚ×Ó·þ°²×°ZMusic²å¼þ
+2021-11-06 11:40:47 [INFO] [Citizens] Enabling Citizens v2.0.10-SNAPSHOT (build 1000)
+2021-11-06 11:40:47 [SEVERE] [Citizens] Missing preferred location bundle.
+2021-11-06 11:40:48 [SEVERE] [Citizens] Unable to load Rhino script classes - javascript scripts will only be able to access CraftBukkit
+2021-11-06 11:40:48 [INFO] [Essentials] Enabling Essentials v2.19.0-dev+221-1556b91
+2021-11-06 11:40:49 [SEVERE] [Essentials] You are running an unsupported server version!
+2021-11-06 11:40:52 [FINE] Skipping item spawn blacklist read; item DB not yet loaded.
+2021-11-06 11:40:53 [INFO] Attempting to convert old kits in config.yml to new kits.yml
+2021-11-06 11:40:53 [INFO] No kits found to migrate.
+2021-11-06 11:40:55 [SEVERE] java.lang.NoClassDefFoundError: org/bukkit/command/FormattedCommandAlias
+2021-11-06 11:40:55 [SEVERE] java.lang.NoClassDefFoundError: org/bukkit/command/FormattedCommandAlias
+2021-11-06 11:40:55 [SEVERE] 	at net.ess3.nms.refl.providers.ReflFormattedCommandAliasProvider.<init>(ReflFormattedCommandAliasProvider.java:28)
+2021-11-06 11:40:55 [SEVERE] 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:393)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+2021-11-06 11:40:55 [SEVERE] 	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2021-11-06 11:40:55 [SEVERE] Caused by: java.lang.ClassNotFoundException: org.bukkit.command.FormattedCommandAlias
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:70)
+2021-11-06 11:40:55 [SEVERE] 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+2021-11-06 11:40:55 [SEVERE] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2021-11-06 11:40:55 [SEVERE] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2021-11-06 11:40:55 [SEVERE] 	... 13 more
+2021-11-06 11:40:55 [SEVERE] Error occurred while enabling Essentials v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at com.earth2me.essentials.Essentials.getOnlinePlayers(Essentials.java:1187)
+	at com.earth2me.essentials.Essentials.handleCrash(Essentials.java:1032)
+	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:448)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2021-11-06 11:40:55 [INFO] [Vault] [Economy] Essentials Economy hooked.
+2021-11-06 11:40:55 [INFO] [EssentialsProtect] Enabling EssentialsProtect v2.19.0-dev+221-1556b91
+2021-11-06 11:40:55 [INFO] [EssentialsProtect] Continuing to enable Protect.
+2021-11-06 11:40:55 [SEVERE] Error occurred while enabling EssentialsProtect v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31)
+	at com.earth2me.essentials.protect.EssentialsProtect.onEnable(EssentialsProtect.java:37)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+2021-11-06 11:40:55 [INFO] [EssentialsChat] Enabling EssentialsChat v2.19.0-dev+221-1556b91
+2021-11-06 11:40:55 [SEVERE] Error occurred while enabling EssentialsChat v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31)
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:44)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+2021-11-06 11:40:55 [INFO] [CMILib] Enabling CMILib v1.0.4.2
+2021-11-06 11:40:56 [SEVERE] Error occurred while enabling CMILib v1.0.4.2 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at net.Zrips.CMILib.Items.ItemManager.load(ItemManager.java:69)
+	at net.Zrips.CMILib.CMILib.onEnable(CMILib.java:191)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.NullPointerException
+	at net.Zrips.CMILib.Version.Version.<clinit>(Version.java:61)
+	... 13 more
+2021-11-06 11:40:56 [INFO] [CommandNPC] Enabling CommandNPC v1.9.1
+2021-11-06 11:40:56 [INFO] [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+2021-11-06 11:40:57 [INFO] [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+2021-11-06 11:40:57 [INFO] [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+2021-11-06 11:40:57 [INFO] [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+2021-11-06 11:40:57 [INFO] [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+2021-11-06 11:40:57 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.19.0-dev+221-1556b91
+2021-11-06 11:40:57 [SEVERE] Error occurred while enabling EssentialsSpawn v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31)
+	at com.earth2me.essentials.spawn.EssentialsSpawn.onEnable(EssentialsSpawn.java:53)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:217)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:457)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:381)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugin(CraftServer.java:284)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.enablePlugins(CraftServer.java:266)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.l(MinecraftServer.java:315)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.f(MinecraftServer.java:292)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.a(MinecraftServer.java:252)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:152)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 13 more
+2021-11-06 11:40:57 [INFO] Done (24.989s)! For help, type "help" or "?"
+2021-11-06 11:40:57 [INFO] [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+2021-11-06 11:40:57 [INFO] [Citizens] Loaded 0 NPCs.
+2021-11-06 11:40:57 [INFO] [Vault] Checking for Updates ... 
+2021-11-06 11:41:00 [INFO] [Vault] No new version available
+2021-11-06 11:41:16 [INFO] Unknown command. Type "help" for help.[m
+2021-11-06 11:41:26 [WARNING] Could not get information about this CraftBukkit version; perhaps you are running a custom one?: IOException
+2021-11-06 11:42:29 [WARNING] Could not get latest artifact information: IOException
+2021-11-06 11:45:56 [WARNING] [CommandNPC] Task #9 for CommandNPC v1.9.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()Ljava/util/Collection;
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.getServerData(Metrics.java:197)
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.submitData(Metrics.java:230)
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.access$100(Metrics.java:33)
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics$1$1.run(Metrics.java:152)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2021-11-06 11:51:11 [INFO] /127.0.0.1:58698 lost connection
+2021-11-06 11:51:12 [INFO] /127.0.0.1:58699 lost connection
+2021-11-06 11:51:19 [INFO] Unknown command. Type "help" for help.[m
+2021-11-06 11:51:20 [INFO] /127.0.0.1:58716 lost connection
+2021-11-06 11:51:24 [INFO] /127.0.0.1:58717 lost connection

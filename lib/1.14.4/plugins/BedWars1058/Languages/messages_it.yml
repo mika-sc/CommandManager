@@ -1,0 +1,1115 @@
+# Traduzione in italiano di Fabian03#4583
+prefix: ''
+name: Italiano
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/gruppo>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-join-usage: '§a▪ §7Utilizzo: /bw join §o<arena/gruppo>'
+cmd-blocked-in-game: '{prefix}&cNon puoi eseguire questa azione.'
+cmd-join-arena-full: |-
+  {prefix}&cArena piena!
+  &aPrendi in considerazione il fatto di donare per entrare anche quando le arene sono piene. &7&o(clicca qui)
+cmd-join-arena-full-vips: |-
+  {prefix}&cArena piena.
+  &cSappiamo che sei un donatore ma al momento questa arena è piena di staffer o donatori.
+cmd-leave: '{prefix}&7{player} &esi è disconnesso!'
+cmd-join-not-found: '{prefix}&cNon esiste nessun gruppo o arena chiamato: {name}'
+cmd-join-arenas-full: '{prefix}&cNon ci sono arene disponibili al momento ;('
+cmd-not-in-arena: '{prefix}&cNon sei in gioco!'
+cmd-lang-list-header: '{prefix} &2Lingue disponibili:'
+cmd-lang-list-format: '&a▪  &7{iso} - &f{name}'
+cmd-lang-usage: '{prefix}&7Utilizzo: /lang &f&o<iso>'
+cmd-lang-not-exist: '{prefix}&cQuesta lingua non esiste!'
+cmd-lang-set: '{prefix}&aLingua modificata!'
+cmd-lang-not-set: '{prefix}&cNon puoi cambiare la lingua durante il gioco.'
+cmd-tp-player-not-found: '{prefix}&cPlayer not found!'
+cmd-tp-not-in-arena: '{prefix}&cThis player is not in a bedwars arena!'
+cmd-tp-not-started: '{prefix}&cThe arena where the player is didn''t start yet!'
+cmd-tp-usage: '{prefix}&cUsage: /bw tp <username>'
+cmd-join-party-big: '{prefix}&cIl tuo party è troppo grande per entrare in questa
+  arena come una squadra :('
+cmd-join-not-leader: '{prefix}&cSolo il creatore del party può scegliere l''arena.'
+cmd-join-success: '{prefix}&7{player} &eè entrato in gioco (&b{on}&e/&b{max}&e)!'
+cmd-rejoin-player-reconnected: '{prefix}&7{player} &esi è riconnesso!'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aComandi del party:'
+- '&e/party help &7- &bStampa questa lista di comandi'
+- '&e/party invite <player> &7- &bInvita il giocatore nel tuo party'
+- '&e/party leave &7- &bLascia il party attuale'
+- '&e/party remove <player> &7- &bRimuovi il giocatore dal party'
+- '&e/party accept <player> &7- &bAccetta un invito al party'
+- '&e/party disband &7- &bScioglie il tuo party'
+cmd-party-invite-usage: '{prefix}&eUtilizzo: &7/party invite <player>'
+cmd-party-offline: '{prefix}&7{player} &eè offline!'
+cmd-party-invite: '{prefix}&eInvito inviato a &7{player}&6.'
+cmd-party-invite-received: '{prefix}&b{player} &eti ha invitato nel party! &o&7(Clicca
+  per accettare)'
+cmd-party-invite-self: '{prefix}&cNon puoi invitare te stesso!'
+cmd-party-no-invite: '{prefix}&cNon ci sono richieste di invito ad un party da accettare'
+cmd-party-already-in: '{prefix}&eSei già in un party!'
+cmd-party-no-perm: '{prefix}&cSolo il proprietario del party può eseguire questa azione!'
+cmd-party-accept-usage: '{prefix}&eUtilizzo: &7/party accept <player>'
+cmd-party-join: '{prefix}&7{player} &eè entrato nel party!'
+cmd-party-not-in: '{prefix}&cNon sei in un party!'
+cmd-party-cant-leave: |-
+  {prefix}&cNon puoi uscire dal tuo party!
+  &eUtilizzo corretto: &b/party disband
+cmd-party-leave: '{prefix}&7{player} &eè uscito dal party!'
+cmd-party-disband: '{prefix}&eParty sciolto!'
+cmd-party-remove-usage: '{prefix}&eUtilizzo: &e/party remove <player>'
+cmd-party-remove: '{prefix}&7{player} &eè stato rimosso dal party.'
+cmd-party-remove-not-in: '{prefix}&7{player} &enon è nel tuo party!'
+cmd-not-found: '{prefix}&cIl comando non è stato trovato o non hai abbastanza permessi!'
+cmd-start-no-game: §c▪ §7Non sei in gioco!
+cmd-start: §c▪ §7Conto alla rovescia diminuito!
+cmd-start-no-perm: |-
+  {prefix}&7Non puoi forzare l'inizio del gioco.
+  §7Prendi in considerazione il fatto di donare per avere più cose.
+cmd-join-spectate: |-
+  {prefix}§6Stai spectando l'arena §9{arena}§6.
+  {prefix}§ePuoi uscire dall'arena in qualsiasi momento utilizzando §c/leave§e.
+cmd-join-spectate-denied: '&cGli spettatori non sono ammessi in questa arena!'
+cmd-cooldown: '&cAspetta {seconds} scondi prima di usare ancora questo comando!'
+arena-kicked-by-vip: |-
+  {prefix}&cIl comando non è stato trovato o non hai abbastanza permessi!
+  &aPotresti fare una donazione per ottenere permessi vip. &7&o(click)
+arena-countdown-stopped: '{prefix}§cNon ci sono abbastanza giocatori! Conto alla rovescia
+  fermato!'
+arena-restart-kick: '{prefix}&eL''arena in cui ti trovavi si sta restartando.'
+arena-status-playing: '&cIn gioco'
+arena-status-restarting: '&4In riavvio'
+arena-status-waiting: '&2In attesa §c{full}'
+arena-status-starting: '&6In avvio §c{full}'
+arena-selector-gui-name: '&8Arene disponibili'
+arena-selector-content-name: '&a&l{name}'
+arena-selector-content-lore:
+- ''
+- '&7Stato: {status}'
+- '&7Giocatori: &f{on}&7/&f{max}'
+- '&7Tipo: &a{group}'
+- ''
+- '&aClick-Sinistro per entrare.'
+- '&eClick-Destro per guardare.'
+arena-start-countdown: '{prefix}&eIl gioco avrà inizio in &6{time} &esecondi!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a{second}'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cWaiting for more players..'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&l    Proteggi il tuo letto e distruggi quello degli avversari.'
+- '&e&l      Potenzia te e il tuo team collezionando'
+- '&e&l   Ferro, Oro, Smeraldi, e Diamanti dai generatori'
+- '&e&l             per avere accesso a forti potenziamenti.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-start-title: '&aVIA'
+spectator-tp-gui-name: '&8Teletrasporto'
+spectator-tp-gui-head-name: '{prefix}{player}'
+spectator-tp-gui-head-lore:
+- '&7Vita: &f{health}%'
+- '&7Cibo: &f{food}'
+- ''
+- '&7Click-Sinistro per guardare'
+spectator-tp-name: '&c&lRitorna alla lobby'
+spectator-tp-lore:
+- '&7Click-destro per ritornare alla lobby!'
+spectator-first-person-enter-title: '&aGuardando &7{player}'
+spectator-first-person-enter-subtitle: '&cSHIFT per uscire'
+spectator-first-person-quit-title: '&eUscita Dalla Modalità Spettatore'
+spectator-first-person-quit-subtitle: ''
+arena-leave-party-disbanded: '{prefix}§cIl proprietario del party è uscito e il party
+  è stato sciolto!'
+arena-join-denied-selector: '{prefix}&cCi dispiace, ma attualmente non puoi entrare
+  in quest''arena. Usa Click-destro per guardare!'
+arena-spectate-denied-selector: '{prefix}&cCi dispiace, ma attualmente non puoi guardare
+  questa partita. Usa Click-sinistro per giocare!'
+arena-join-denied-no-bwp: "&cSorry but you must join an arena using BedWarsProxy.\
+  \ \n&eIf you want to setup an arena make sure to give yourself the bw.setup permission\
+  \ so you can join the server directly!"
+generator-tier: '&eLivello &c{tier}'
+generator-diamond: '&b&lDiamante'
+generator-emerald: '&a&lSmeraldo'
+generator-timer: '&eDrop in &c{seconds} &esecondi'
+generator-upgrade-announce: '{prefix}&eI generatori di {generatorType} &esono stati
+  potenziati a livello &c{tier}'
+format-winner-team: '      {TeamColor}{TeamName} &7- {members}'
+format-winner-solo: '                 {TeamColor}{TeamName} &7- {members}'
+format-chat-lobby: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-waiting: '{level}{vPrefix}&7{player}{vSuffix}: {message}'
+format-chat-global: '{level}{vPrefix}&6[SHOUT] {team} &7{player}&f{vSuffix}: {message}'
+format-chat-team: '{level}{vPrefix}&f{team}&7 {player}{vSuffix} {message}'
+format-chat-spectator: '{level}{vPrefix}&7[SPECTATOR] {player}{vSuffix}: {message}'
+format-sb-health:
+- '&c❤'
+- '&aVita'
+format-spectator-team: SPECT
+format-spectator-color: '&7'
+format-sb-tab-prefix:
+  restarting:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}'
+  playing:
+  - '{teamColor}&l{teamLetter} &r{teamColor}'
+  - '{team} '
+  - '{vPrefix} {teamColor}&l{teamLetter} &r{teamColor}'
+  starting:
+  - '{vPrefix} '
+  waiting:
+  - '{vPrefix} '
+  lobby:
+  - '{vPrefix} '
+format-sb-tab-suffix:
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a{remainingPlayers}'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 TU'
+format-action-tracking: '&fObbiettivo: {team} &f- Distanza: {distance}m'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-stats-time: yyyy/MM/dd HH:mm
+format-despawnable-health: '▮ '
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[SPECTATOR]'
+meaning-shout: shout
+meaning-nobody: Nessuno
+meaning-full: Pieno
+meaning-iron-singular: Ferro
+meaning-iron-plural: Ferro
+meaning-gold-singular: Oro
+meaning-gold-plural: Oro
+meaning-emerald-singular: Smeraldo
+meaning-emerald-plural: Smeraldi
+meaning-diamond-singular: Diamante
+meaning-diamond-plural: Diamanti
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-never: Never
+interact-cant-place: '{prefix}&cNon puoi piazzare blocchi in questa area!'
+interact-cant-break: '{prefix}&cPuoi rompere solo i blocchi che sono stati piazzati
+  dai giocatori!'
+interact-cant-destroy-bed: '&cNon puoi distruggere il tuo letto!'
+interact-bed-destroy-chat: |2
+
+  &f&lLETTO DISTRUTTO > Il letto del team {TeamColor}{TeamName} &7è stato fatto a pezzi da {PlayerColor}{PlayerName}&7!
+interact-bed-destroy-title: '&cLETTO DISTRUTTO!'
+interact-bed-destroy-subtitle: '&fNon verrai più respawnato!'
+interact-bed-destroy-team: '&f&lLETTO DISTRUTTO > &7Il tuo letto è stato distrutto
+  da {PlayerColor}{PlayerName}&7!'
+interact-cant-open-chest: '&cNon puoi aprire questa cesta, perchè il team è stato
+  eliminato.'
+player-die-void-regular: '{PlayerColor}{PlayerName} &7è caduto nel vuoto.'
+player-die-void-final: '{PlayerColor}{PlayerName} &7è caduto nel vuoto. &b&lUCCISIONE
+  FINALE!'
+player-die-knocked-void-regular: '{PlayerColor}{PlayerName} &7è caduto nel vuoto con
+  l''aiuto di {KillerColor}{KillerName}&7.'
+player-die-knocked-void-final: '{PlayerColor}{PlayerName} &7è caduto nel vuoto con
+  l''aiuto di {KillerColor}{KillerName}&7. &b&lUCCISIONE FINALE!'
+player-die-knocked-fall-regular: '{PlayerColor}{PlayerName} &7è stato spinto da {KillerColor}{KillerName}&7.'
+player-die-knocked-fall-final: '{PlayerColor}{PlayerName} &7è stato spinto da {KillerColor}{KillerName}&7.
+  &b&lUCCISIONE FINALE!'
+player-die-bomb-regular: '{PlayerColor}{PlayerName} &7è saltato in aria a causa di
+  {KillerColor}{KillerName}&7.'
+player-die-bomb-final: '{PlayerColor}{PlayerName} &7è saltato in aria a causa di {KillerColor}{KillerName}&7.
+  &b&lUCCISIONE FINALE!'
+player-die-attack-regular: '{PlayerColor}{PlayerName} &7è stato ucciso da {KillerColor}{KillerName}&7.'
+player-die-attack-final: '{PlayerColor}{PlayerName} &7è stato ucciso da {KillerColor}{KillerName}&7.
+  &b&lUCCISIONE FINALE!'
+player-die-pvp-log-out-regular: '{PlayerColor}{PlayerName} &7si è disconnesso mentre
+  combatteva con {KillerColor}{KillerName}&7.'
+player-die-pvp-log-out-final: '{PlayerColor}{PlayerName} &7si è disconnesso mentre
+  combatteva con {KillerColor}{KillerName}&7. &b&lUCCISIONE FINALE!'
+player-respawn-title: '&cSEI MORTO!'
+player-respawn-subtitle: '&eVerrai respawnato in &c{time} &esecondi!'
+player-respawn-timer-chat: '{prefix}&eVerrai respawnato in &c{time} &esecondi!'
+player-respawned-title: '&aRESPAWNATO!'
+player-eliminated-chat: '{prefix}&cSei stato eliminato!'
+player-die-unknown-regular: '{PlayerColor}{PlayerName} &7è morto.'
+player-die-unknown-final: '{PlayerColor}{PlayerName} &7è morto. &b&lUCCISIONE FINALE!'
+player-die-shoot-regular: '{PlayerColor}{PlayerName} &7è stato sparato da {KillerColor}{KillerName}&7!'
+player-die-shoot-final: '{PlayerColor}{PlayerName} &7è stato sparato da {KillerColor}{KillerName}&7!
+  &b&lUCCISIONE FINALE!'
+player-die-bedbug-regular: '{PlayerColor}{PlayerName} &7è stato ucciso dal BedBug
+  {KillerColor}{KillerTeamName}!'
+player-die-bedbug-final: '{PlayerColor}{PlayerName} &7è stato ucciso dal BedBug {KillerColor}{KillerTeamName}!
+  &b&lUCCISIONE FINALE!'
+player-die-golem-regular: '{PlayerColor}{PlayerName} &7è stato ucciso dal Dream Defender
+  {KillerColor}{KillerTeamName}!'
+player-die-golem-final: '{PlayerColor}{PlayerName} &7è stato ucciso dal Dream Defender
+  {KillerColor}{KillerTeamName}! &b&lUCCISIONE FINALE!'
+player-loot-diamond: '{prefix}&b+{amount} {meaning}'
+player-loot-emerald: '{prefix}&a+{amount} {meaning}'
+player-loot-iron: '{prefix}&f+{amount} {meaning}'
+player-loot-gold: '{prefix}&6+{amount} {meaning}'
+player-die-bomb2-regular: '{PlayerColor}{PlayerName} &7è stato colpito da una bomba.'
+player-die-bomb2-final: '{PlayerColor}{PlayerName} &7è stato colpito da una bomba.
+  &b&lUCCISIONE FINALE!'
+game-end-game-over-title: '&c&lGAME OVER!'
+game-end-victory-title: '&6&lVITTORIA!'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '{winnerFormat}'
+- ''
+- ''
+- '&e                          &l1° Uccisore &7- {firstName} - {firstKills}'
+- '&6                          &l2° Uccisore &7- {secondName} - {secondKills}'
+- '&c                          &l3° Uccisore &7- {thirdName} - {thirdKills}'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game-end-winner-team: '{prefix}{TeamColor}{TeamName} &aha vinto il gioco!'
+bed-hologram-defend: '&c&lDifendi il tuo letto!'
+bed-hologram-destroyed: '&c&lIl tuo letto è stato distrutto!'
+npc-team-upgrades: '&bTEAM UPGRADES,&e&lCLICK DESTRO'
+npc-solo-upgrades: '&bSOLO UPGRADES,&e&lCLICK DESTRO'
+npc-team-shop: '&bITEM SHOP,&e&lCLICK DESTRO'
+npc-solo-shop: '&bITEM SHOP,&e&lCLICK DESTRO'
+next-event-beds-destroy: '&cDistruzione letti'
+next-event-diamondII: '&fDiamante II'
+next-event-diamondIII: '&fDiamante III'
+next-event-dragon-spawn: '&fMorte Brusca'
+next-event-emeraldII: '&fEmerald II'
+next-event-emeraldIII: '&fEmerald III'
+next-event-game-end: '&4Fine gioco'
+next-event-beds-destroy-title: '&cLETTO DISTRUTTO!'
+next-event-beds-destroy-sub-title: '&Tutti i letti sono stati distrutti!'
+next-event-beds-destroy-chat: '{prefix}&c&lTutti i letti sono stati distrutti!'
+next-event-sudden-death-title: '&cMorte Brusca'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cMORTE BRUSCA: &6&b{TeamDragons} Drago {TeamColor}{TeamName}!'
+lobby-items-stats-name: '&eStatistiche'
+lobby-items-stats-lore:
+- '&fClick-destro per vedere'
+- le tue statistiche!
+lobby-items-arena-selector-name: '&eArena Selector'
+lobby-items-arena-selector-lore:
+- '&fClick-destro to choose an arena!'
+lobby-items-leave-name: '&eTorna nella Lobby'
+lobby-items-leave-lore:
+- '&fClick-destro per lasciare BedWars!'
+pre-game-items-stats-name: '&eStatistiche'
+pre-game-items-stats-lore:
+- '&fClick-destro per vedere'
+- le tue statistiche!
+pre-game-items-leave-name: '&eBack to Lobby'
+pre-game-items-leave-lore:
+- '&fClick-destro to leave the arena!'
+spectator-items-teleporter-name: '&eTeletrasporto'
+spectator-items-teleporter-lore:
+- '&fClick-destro to spectate a player!'
+spectator-items-leave-name: '&eTorna nella Lobby'
+spectator-items-leave-lore:
+- '&fClick-destro per lasciare BedWars!'
+cmd-rejoin-no-arena: '{prefix}&cNon c''è un''arena su cui ritornare!'
+cmd-rejoin-denied: '{prefix}&cNon puoi tornare più. Partita finita o letto distrutto.'
+cmd-rejoin-allowed: '{prefix}&eStai entrando sull''arena &a{arena}&e!'
+stats-inv-name: '&8Statistiche di {player}'
+stats-wins-name: '&6Vittorie'
+stats-wins-lore:
+- '&f{wins}'
+stats-losses-name: '&6Sconfitte'
+stats-losses-lore:
+- '&f{losses}'
+stats-kills-name: '&6Uccisioni'
+stats-kills-lore:
+- '&f{kills}'
+stats-deaths-name: '&6Decessi'
+stats-deaths-lore:
+- '&f{deaths}'
+stats-final-kills-name: '&6Uccisioni finali'
+stats-final-kills-lore:
+- '&f{finalKills}'
+stats-final-deaths-name: '&6Decessi finali'
+stats-final-deaths-lore:
+- '&f{finalDeaths}'
+stats-beds-destroyed-name: '&6Letti distrutti'
+stats-beds-destroyed-lore:
+- '&f{bedsDestroyed}'
+stats-first-play-name: '&6Prima partita'
+stats-first-play-lore:
+- '&f{firstPlay}'
+stats-last-play-name: '&6Ultima partita'
+stats-last-play-lore:
+- '&f{lastPlay}'
+stats-games-played-name: '&6Partite giocate'
+stats-games-played-lore:
+- '&f{gamesPlayed}'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMappa: &a{map}'
+    - ''
+    - '&fGiocatori: &a{on}/{max}'
+    - ''
+    - '&fIn attesa...'
+    - ''
+    - '§fMode: &a{group}'
+    - '&fVersione: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    starting:
+    - '&f&lBED WARS'
+    - '&7{date} &8{server}'
+    - ''
+    - '&fMappa: &a{map}'
+    - ''
+    - '&fGiocatori: &a{on}/{max}'
+    - ''
+    - '&fInizio in &a{time}s'
+    - ''
+    - '§fMode: &a{group}'
+    - '&fVersione: &7{version}'
+    - ''
+    - '&e{server_ip}'
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}A &f{TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}W &f{TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}P &f{TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}S &f{TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&e{server_ip}'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - '{TeamAquaColor}A &f{TeamAquaName}&f: {TeamAquaStatus}'
+    - '{TeamWhiteColor}W &f{TeamWhiteName}&f: {TeamWhiteStatus}'
+    - '{TeamPinkColor}P &f{TeamPinkName}&f: {TeamPinkStatus}'
+    - '{TeamGrayColor}S &f{TeamGrayName}&f: {TeamGrayStatus}'
+    - ''
+    - '&e{server_ip}'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - ''
+    - '&fUccisioni: &a{kills}'
+    - '&fUccisioni Finali: &a{finalKills}'
+    - '&fLetti Distrutti: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7{date}'
+    - ''
+    - '&f{nextEvent} in &a{time}'
+    - ''
+    - '{TeamRedColor}R&f {TeamRedName}&f: {TeamRedStatus}'
+    - '{TeamBlueColor}B&f {TeamBlueName}&f: {TeamBlueStatus}'
+    - '{TeamGreenColor}G&f {TeamGreenName}&f: {TeamGreenStatus}'
+    - '{TeamYellowColor}Y &f{TeamYellowName}&f: {TeamYellowStatus}'
+    - ''
+    - '&fUccisioni: &a{kills}'
+    - '&fUccisioni Finali: &a{finalKills}'
+    - '&fLetti Distrutti: &a{beds}'
+    - ''
+    - '&e{server_ip}'
+  lobby:
+  - '&6&lBedWars'
+  - '&fLivello: {level}'
+  - ''
+  - '&fProgresso: &a{currentXp}&7/&b{requiredXp}'
+  - '{progress}'
+  - ''
+  - '&7{player}'
+  - ''
+  - '&fSoldi: &a{money}'
+  - ''
+  - '&fVincite: &a{wins}'
+  - '&fUccisioni: &a{kills}'
+  - ''
+  - '&e{server_ip}'
+team-eliminated: |2
+
+  &f&lTEAM ELIMINATO > Il team {TeamColor}{TeamName} &cè stato eliminato
+xp-reward-per-minute: '{prefix}&6+{xp} BedWars Experience Received (Play Time).'
+xp-reward-game-win: '{prefix}&6+{xp} BedWars Experience Received (Game Win).'
+xp-reward-per-teammate: '{prefix}&6+{xp} BedWars Experience Received (Team Support).'
+shop-insuff-money: '{prefix}&cNon hai abbastanza {currency}! Te ne occorre {amount}
+  in più!'
+shop-new-purchase: '{prefix}&aHai comprato &6{item}'
+shop-already-bought: '{prefix}&Hai già comprato questo!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eClick per comprare'
+shop-lore-status-cant-afford: '&cNon hai abbastanza {currency}!'
+shop-lore-status-tier-maxed: '&aMAXED!'
+shop-lore-quick-add: '&bShift Click per aggiungere al Quick Buy'
+shop-lore-quick-remove: '&bShift Click per rimuovere dal Quick Buy!'
+upgrades-lore-click-buy: '{color}Click to purchase!'
+upgrades-lore-insuff-money: '{color}You don''t have enough {currency}'
+upgrades-lore-locked: '&cLOCKED'
+upgrades-lore-unlocked: '{color}UNLOCKED'
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: '&eForgiatrice di ferro'
+        lore:
+        - '&7Aumenta la velocità di spawn di ferro'
+        - '&7e oro del 50%..'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier2:
+        name: '&eForgiatrice d''oro'
+        lore:
+        - '&7Aumenta la velocità di spawn di ferro'
+        - '&7e oro del 100%..'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier3:
+        name: '&eEmerald Forge'
+        lore:
+        - '&7Attiva lo spawn di smeraldi'
+        - '&7nel generatore del tuo team.'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    maniacMiner:
+      tier1:
+        name: '&eManiac Miner'
+        lore:
+        - '&7Tutti i giocatori del tuo team'
+        - '&7riceveranno Haste I'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    sharpSword:
+      tier1:
+        name: '&eSpade affilate'
+        lore:
+        - '&7Tutti i giocatori del tuo team'
+        - '&7riceveranno Affilatezza I sulle loro spade!'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    reinforced:
+      tier1:
+        name: '&eArmatura rinforzata'
+        lore:
+        - '&7Tutti i giocatori del tuo team'
+        - '&7riceveranno Protezione I sulle loro armature!'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    trap:
+      tier1:
+        name: '&eIt''s a trap!'
+        lore:
+        - '&7Il prossimo nemico che entrerà'
+        - '&7nella tua base riceverà Blindness e'
+        - '&7Slowness!'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    miningFatigue:
+      tier1:
+        name: '&eMiner Fatigue Trap'
+        lore:
+        - '&7Il prossimo nemico che entrerà'
+        - '&7nella tua base riceverà Mining Fatigue'
+        - '&7for 10 seconds!'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    healPool:
+      tier1:
+        name: '&eRigenerazione'
+        lore:
+        - '&7Crea un campo di rigenerazione'
+        - '&7intorno alla tua base!'
+        - ''
+        - '&7Costo:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+upgrades-new-purchase: '&a{player} purchased &6{upgradeName}'
+meaning-no-trap: No trap!
+format-upgrade-trap-cost: '&7Cost: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-upgrade-name-forge-tier-1: '{color}Iron Forge'
+upgrades-upgrade-lore-forge-tier-1:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '{tierColor}Tier 1: +50% Resources, &b{cost} {currency}'
+- '&7Tier 2: +100% Resources, &b8 Diamonds'
+- '&7Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Golden Forge'
+upgrades-upgrade-lore-forge-tier-2:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '{tierColor}Tier 2: +100% Resources, &b8 Diamonds'
+- '&7Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-3: '{color}Emerald Forge'
+upgrades-upgrade-lore-forge-tier-3:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '&aTier 2: +100% Resources, &b8 Diamonds'
+- '{tierColor}Tier 3: Spawn emeralds, &b12 Diamonds'
+- '&7Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-upgrade-name-forge-tier-4: '{color}Molten Forge'
+upgrades-upgrade-lore-forge-tier-4:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '&aTier 1: +50% Resources, &b{cost} {currency}'
+- '&aTier 2: +100% Resources, &b8 Diamonds'
+- '&aTier 3: Spawn emeralds, &b12 Diamonds'
+- '{tierColor}Tier 4: +200% Resources, &b16 Diamonds'
+- ''
+upgrades-category-item-name-traps: '&eBuy a trap'
+upgrades-category-item-lore-traps:
+- '&7Purchased traps will be'
+- '&7queued on the right.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
+upgrades-upgrade-lore-swords-tier-1:
+- '&7Your team permanently gains'
+- '&7Sharpness I on all swords and'
+- '&7axes!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
+upgrades-upgrade-lore-armor-tier-1:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '{tierColor}Tier 1: Protection I, &b{cost} {currency}'
+- '&7Tier 2: Protection II, &b10 Diamonds'
+- '&7Tier 3: Protection III, &b20 Diamonds'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
+upgrades-upgrade-lore-armor-tier-2:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '{tierColor}Tier 2: Protection II, &b{cost} {currency}'
+- '&7Tier 3: Protection III, &b20 Diamonds'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
+upgrades-upgrade-lore-armor-tier-3:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '&aTier 2: Protection II, &b10 Diamonds'
+- '{tierColor}Tier 3: Protection III, &b{cost} {currency}'
+- '&7Tier 4: Protection IV, &b30 Diamonds'
+- ''
+upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
+upgrades-upgrade-lore-armor-tier-4:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '&aTier 1: Protection I, &b5 Diamonds'
+- '&aTier 2: Protection II, &b10 Diamonds'
+- '&aTier 3: Protection III, &b20 Diamonds'
+- '{tierColor}Tier 4: Protection IV, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
+upgrades-upgrade-lore-miner-tier-1:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '{tierColor}Tier 1: Haste I, &b{cost} {currency}'
+- '&7Tier 2: Haste II, &b6 Diamonds'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
+upgrades-upgrade-lore-miner-tier-2:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '&aTier 1: Haste I, &b4 Diamonds'
+- '{tierColor}Tier 2: Haste II, &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
+upgrades-upgrade-lore-heal-pool-tier-1:
+- '&7Creates a Regeneration field'
+- '&7around yor base!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon-tier-1:
+- '&7Your team will have 2 dragons'
+- '&7instead of 1 during deathmatch!'
+- ''
+- '&7Cost: &b{cost} {currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Purchasable'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Traps Queue'
+upgrades-trap-slot-item-name-first: '{color}Trap #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7The first enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Trap #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7The second enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Trap #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7The third enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Inflicts Blindness and Slowness'
+- '&7for 5 seconds.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '{color}Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Reveales invisible players as'
+- '&7well as their name and team.'
+- ''
+upgrades-base-trap-name-4: '{color}Miner Fatigue Trap'
+upgrades-base-trap-lore-4:
+- '&7Inflict Mining Fatigue for 10'
+- '&7seconds.'
+- ''
+upgrades-separator-item-name-back: '&aBack'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Queue a trap'
+upgrades-trap-queue-full: '&cTrap queue full!'
+upgrades-trap-default-msg: '&c&l{trap} è stata attivata!'
+upgrades-trap-default-title: '&cTRAPPOLA ATTIVATA!'
+upgrades-trap-default-subtitle: '&ffLa tua trappola {trap} è stata attivata!'
+upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {color}&l{team}
+  &c&lteam!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  separator-item-name: '&8⇧ Categorie'
+  separator-item-lore:
+  - '&8⇩ Items'
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cSlot libero!'
+  quick-buy-empty-item-lore:
+  - '&7Questo è uno slot Quick Buy!'
+  - '&bShifta + Click &7su un item nello'
+  - '&7shop per aggungerlo qui.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blocchi'
+    category-item-name: '&aBlocchi'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-wool-name: '{color}Lana'
+    content-item-wool-lore:
+    - '&7Costo: &f{cost} {currency}'
+    - ''
+    - '&7Buono per costruire ponti tra'
+    - '&7le isole. Prende il colore'
+    - '&7del tuo team.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Argilla indurita'
+    content-item-clay-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco base per proteggere  il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Vetro Anti Esplosione'
+    content-item-glass-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Immune alle esplosioni.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}Pietra dell''End'
+    content-item-stone-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco solido per difendere il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Scala'
+    content-item-ladder-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per salvare gatti bloccati'
+    - '&7sugli alberi.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Wood'
+    content-item-wood-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco solido per difendere il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '&cName not set'
+    content-item-obsidian-lore: '&cLore not set'
+  melee-category:
+    inventory-name: '&8Spade'
+    category-item-name: '&aSpade'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-stone-sword-name: '{color}Spada di pietra'
+    content-item-stone-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Spada di ferro'
+    content-item-iron-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Spada di diamante'
+    content-item-diamond-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Bastone (Contraccolpo I)'
+    content-item-stick-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armatura'
+    category-item-name: '&aArmatura'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-chainmail-name: '{color}Armatura di Maglia Permanente'
+    content-item-chainmail-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Chainmail leggings and boots'
+    - '&7which you will always spawn'
+    - '&7with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Armatura di Ferro Permanente'
+    content-item-iron-armor-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Iron leggings and boots which'
+    - '&7you will always spawn with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Armatura di Diamante Permanente'
+    content-item-diamond-armor-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Diamond leggings and boots which'
+    - '&7you will always crush with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Utensili'
+    category-item-name: '&aUtensili'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-shears-name: '{color}Cesoie Permanenti'
+    content-item-shears-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per tagliare la lana.'
+    - '&7Rispawnerai sempre con questo utensile.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Piccone {tier}'
+    content-item-pickaxe-lore:
+    - '&7Costo: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7Questo è un item upgradabile.'
+    - '&7Perderai un tier alla tua morte.'
+    - ''
+    - '&7Rispawnerai sempre con'
+    - '&7questo item avendo almeno'
+    - '&7il tier pià basso.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Ascia {tier}'
+    content-item-axe-lore:
+    - '&7Costo: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7Questo è un item upgradabile.'
+    - '&7Perderai un tier alla tua morte.'
+    - ''
+    - '&7Rispawnerai sempre con'
+    - '&7questo item avendo almeno'
+    - '&7il tier pià basso.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Ranged'
+    category-item-name: '&aArchi'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-arrow-name: '{color}Frecce'
+    content-item-arrow-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Arco'
+    content-item-bow1-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Arco (Potenza I)'
+    content-item-bow2-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Arco (Potenza I, Contraccolpo I)'
+    content-item-bow3-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Pozioni'
+    category-item-name: '&aPotioni'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-speed-potion-name: '{color}Pozione Rapidità II (45 secondi)'
+    content-item-speed-potion-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Pozione Salto V (45 secondi)'
+    content-item-jump-potion-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Pozione Invisibilità (30 secondi)'
+    content-item-invisibility-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Utilità'
+    category-item-name: '&aUtilità'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-golden-apple-name: '{color}Mela D''oro'
+    content-item-golden-apple-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Mela rigeneratrice di vita.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}BedBug'
+    content-item-bedbug-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Spawna un silverfish dove arriva'
+    - '&7la palla di neve, per distrare'
+    - '&7gli avversari. Vive 15 secondi.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Dream Defender'
+    content-item-dream-defender-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Iron Golem che ti aiuta a proteggere'
+    - '&7la tua base. Vive 4 minuti.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Fireball'
+    content-item-fireball-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Click-destro per lanciare! Ottima per'
+    - '&7spingere gli avversari che camminano'
+    - '&7sui ponti'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Si accende instantaneamente, utile per'
+    - '&7far esplodere cose!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Il metodo pià veloce per invadere'
+    - '&7la base degli avversari.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Secchio D''acqua'
+    content-item-water-bucket-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per rallentare gli'
+    - '&7inamici. Può anche proteggere'
+    - '&7dalla TNT.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Questo uovo crea un ponte in sua'
+    - '&7direzione dopo averlo lanciato.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Latte Magico'
+    content-item-magic-milk-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Evita le trappole per 60 secondi'
+    - '&7dopo averlo consumato.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Spugna'
+    content-item-sponge-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per succhiare l''acqua :)).'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'

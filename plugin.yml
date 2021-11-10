@@ -1,0 +1,39 @@
+name: DelayCommand
+main: com.github.avery.MyFirstPlugin
+version: 1.34.145
+author:
+  Normally_422
+api-version: 1.13
+
+softdepend:
+  - Vault
+  - PlaceholderAPI
+  - CommandNPC
+  - Citizens
+  - CatSeedLogin
+  - AuthMe
+commands:
+  dcmd:
+    description: DCMDVer
+    usage: |
+      §e=======§3DelayCommand Helps§e=======
+      §e/<command> help  §2 显示此帮助. §e/§2 Show helps.
+      §e/<command> ver   §2 显示版本. §e/§2 Show Version.
+      §e/<command> predo <player> <aftercommand>   §2在<player>上线时执行<aftercommand>命令. §e/§2 Do <aftercommand> when <player> online.
+      §e/<command> predodel <player> <aftercommand>   §2删除<player>上线时执行的<aftercommand>命令. §e/§2 Delete PREDO commands.
+      §e/<command> update       §2更新插件. §e/§2 Download the latest version of DCMD.
+#§e/<command> preti <time> <aftercommand>   §2在<time>秒后执行<aftercommand>命令. §e/§2 Do <aftercommand> in <time>'s seconds.
+#§e/<command> pretidel <time> <aftercommand>   §2删除<time>秒后执行的<aftercommand>命令. §e/§2 Delete PRETI commands.
+
+  
+permissions:
+  dcmd.admin.*:
+      description: Gives all permissions
+      default: op
+      children:
+        setCommand:
+          description: Allows the player to use command
+        delCommand:
+          description: Allows the player to use command
+  dcmdupdate:
+      default: op

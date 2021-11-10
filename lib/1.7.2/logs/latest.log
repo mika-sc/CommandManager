@@ -1,0 +1,1305 @@
+[11:56:12] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[11:56:12] [Server thread/INFO]: Loading properties
+[11:56:12] [Server thread/INFO]: Default game type: SURVIVAL
+[11:56:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1322 (MC: 1.7.2) (Implementing API version 1.7.2-R0.4-SNAPSHOT)
+[11:56:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:56:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:56:12] [Server thread/INFO]: Generating keypair
+[11:56:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:56:13] [Server thread/ERROR]: Could not load 'plugins\PlaceholderAPI-2.10.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:314) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:355) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:135) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NoClassDefFoundError: com/google/gson/Gson
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.<clinit>(CloudExpansionManager.java:64) ~[?:?]
+	at me.clip.placeholderapi.PlaceholderAPIPlugin.<init>(PlaceholderAPIPlugin.java:77) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: com.google.gson.Gson
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.<clinit>(CloudExpansionManager.java:64) ~[?:?]
+	at me.clip.placeholderapi.PlaceholderAPIPlugin.<init>(PlaceholderAPIPlugin.java:77) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 6 more
+[11:56:13] [Server thread/ERROR]: Could not load 'plugins\ViaVersion-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:137) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:314) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:236) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:355) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:135) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NoSuchMethodError: com.google.common.collect.Lists.newCopyOnWriteArrayList()Ljava/util/concurrent/CopyOnWriteArrayList;
+	at com.viaversion.viaversion.protocol.ProtocolManagerImpl.<init>(ProtocolManagerImpl.java:104) ~[?:?]
+	at com.viaversion.viaversion.ViaManagerImpl.<init>(ViaManagerImpl.java:51) ~[?:?]
+	at com.viaversion.viaversion.ViaManagerImpl$ViaManagerBuilder.build(ViaManagerImpl.java:352) ~[?:?]
+	at com.viaversion.viaversion.ViaVersionPlugin.<init>(ViaVersionPlugin.java:80) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 6 more
+[11:56:13] [Server thread/ERROR]: Could not load 'plugins\ViaBackwards-4.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:355) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:135) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[11:56:13] [Server thread/ERROR]: Could not load 'plugins\ViaRewind-2.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:201) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:355) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:135) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[11:56:14] [Server thread/INFO]: [NorFriend] Loading NorFriend v2.01.645
+[11:56:14] [Server thread/INFO]: [CommandHelper] Loading CommandHelper v1.0
+[11:56:14] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[11:56:14] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:56:14] [Server thread/ERROR]: io/netty/util/Version initializing ProtocolLib v4.7.1-SNAPSHOT-b530 (Is it up to date?)
+java.lang.NoClassDefFoundError: io/netty/util/Version
+	at com.comphenix.protocol.utility.NettyVersion.detectVersion(NettyVersion.java:20) ~[?:?]
+	at com.comphenix.protocol.utility.NettyVersion.getVersion(NettyVersion.java:14) ~[?:?]
+	at com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:176) ~[?:?]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:360) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:135) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: io.netty.util.Version
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 7 more
+[11:56:14] [Server thread/INFO]: [ZMusic] Loading ZMusic v2.0.7
+[11:56:14] [Server thread/INFO]: [ZMusic-Addon] Loading ZMusic-Addon v1.2
+[11:56:14] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.11-SNAPSHOT (build 1050)
+[11:56:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+221-1556b91
+[11:56:14] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.19.0-dev+221-1556b91
+[11:56:14] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0-dev+221-1556b91
+[11:56:14] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.4.2
+[11:56:14] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[11:56:14] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.0-dev+221-1556b91
+[11:56:14] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.24.100
+[11:56:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:56:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:56:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:56:14] [Server thread/ERROR]: Error occurred while enabling Vault v1.7.3-b131 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at net.milkbowl.vault.Vault.onEnable(Vault.java:188) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:136) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 9 more
+[11:56:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:56:14] [Server thread/ERROR]: ******************************************************
+[11:56:14] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[11:56:14] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[11:56:14] [Server thread/ERROR]: ******************************************************
+[11:56:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[11:56:14] [Server thread/INFO]: Preparing level "world"
+[11:56:14] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:56:14] [Server thread/INFO]: View Distance: 10
+[11:56:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:56:14] [Server thread/INFO]: Clear tick list: false
+[11:56:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8
+[11:56:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:56:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:14] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:56:14] [Server thread/INFO]: Structure Info Saving: true
+[11:56:14] [Server thread/INFO]: Random Lighting Updates: false
+[11:56:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Anti X-Ray: true
+[11:56:14] [Server thread/INFO]: 	Engine Mode: 1
+[11:56:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:56:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:56:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:14] [Server thread/INFO]: Mob Spawn Range: 4
+[11:56:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:56:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:14] [Server thread/INFO]: Max Entity Collisions: 8
+[11:56:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:56:14] [Server thread/INFO]: View Distance: 10
+[11:56:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:56:14] [Server thread/INFO]: Clear tick list: false
+[11:56:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8
+[11:56:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:56:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:14] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:56:14] [Server thread/INFO]: Structure Info Saving: true
+[11:56:14] [Server thread/INFO]: Random Lighting Updates: false
+[11:56:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Anti X-Ray: true
+[11:56:14] [Server thread/INFO]: 	Engine Mode: 1
+[11:56:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:56:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:56:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:14] [Server thread/INFO]: Mob Spawn Range: 4
+[11:56:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:56:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:14] [Server thread/INFO]: Max Entity Collisions: 8
+[11:56:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:56:14] [Server thread/INFO]: View Distance: 10
+[11:56:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:56:14] [Server thread/INFO]: Clear tick list: false
+[11:56:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:56:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8
+[11:56:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:56:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:56:14] [Server thread/INFO]: Sending up to 5 chunks per packet
+[11:56:14] [Server thread/INFO]: Structure Info Saving: true
+[11:56:14] [Server thread/INFO]: Random Lighting Updates: false
+[11:56:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:56:14] [Server thread/INFO]: Anti X-Ray: true
+[11:56:14] [Server thread/INFO]: 	Engine Mode: 1
+[11:56:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:56:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:56:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:56:14] [Server thread/INFO]: Mob Spawn Range: 4
+[11:56:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:56:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:56:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:56:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:56:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:56:14] [Server thread/INFO]: Max Entity Collisions: 8
+[11:56:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4274180443167127904)
+[11:56:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4274180443167127904)
+[11:56:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4274180443167127904)
+[11:56:16] [Server thread/INFO]: [NorFriend] Enabling NorFriend v2.01.645
+[11:56:16] [Server thread/INFO]: [NorFriend] [Vault] - Ecomomy API was loading successful!!
+[11:56:16] [Server thread/INFO]: [CommandHelper] Enabling CommandHelper v1.0
+[11:56:16] [Server thread/INFO]: [CommandHelper] ≤Âº˛º”‘ÿ≥…π¶
+[11:56:16] [Server thread/INFO]: [ZMusic] Enabling ZMusic v2.0.7
+[11:56:16] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m’˝‘⁄º”‘ÿ÷–....[m
+[11:56:16] [Server thread/ERROR]: Error occurred while enabling ZMusic v2.0.7 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/BaseComponent
+	at cn.iqianye.mc.zmusic.ZMusicBukkit.onEnable(ZMusicBukkit.java:34) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.BaseComponent
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 12 more
+[11:56:16] [Server thread/INFO]: [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+[11:56:16] [Server thread/WARN]: [ZMusic-Addon] °Ïc«ÎŒ‘⁄◊”∑˛∞≤◊∞ZMusic≤Âº˛
+[11:56:16] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.11-SNAPSHOT (build 1050)
+[11:56:16] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[11:56:16] [Server thread/ERROR]: [Citizens] Unable to find Rhino classes - javascript scripts won't see non-CraftBukkit classes
+[11:56:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+221-1556b91
+[11:56:16] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:56:16] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:56:16] [Server thread/INFO]: No kits found to migrate.
+[11:56:17] [Server thread/INFO]: Loaded 853 items from items.csv.
+[11:56:17] [Server thread/INFO]: Using locale zh_CN
+[11:56:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:56:17] [Server thread/ERROR]: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+[11:56:17] [Server thread/WARN]: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+[11:56:17] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.getOnlinePlayers(Essentials.java:1187)
+[11:56:17] [Server thread/WARN]: 	at com.earth2me.essentials.Backup.<init>(Backup.java:30)
+[11:56:17] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:415)
+[11:56:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[11:56:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[11:56:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[11:56:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[11:56:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[11:56:17] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[11:56:17] [Server thread/ERROR]: Error occurred while enabling Essentials v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at com.earth2me.essentials.Essentials.getOnlinePlayers(Essentials.java:1187) ~[?:?]
+	at com.earth2me.essentials.Essentials.handleCrash(Essentials.java:1032) ~[?:?]
+	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:448) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[11:56:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:56:17] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:17] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.0-dev+221-1556b91
+[11:56:17] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[11:56:17] [Server thread/ERROR]: Error occurred while enabling EssentialsProtect v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31) ~[?:?]
+	at com.earth2me.essentials.protect.EssentialsProtect.onEnable(EssentialsProtect.java:37) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 13 more
+[11:56:17] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0-dev+221-1556b91
+[11:56:17] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31) ~[?:?]
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:44) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 13 more
+[11:56:17] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:17] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.4.2
+[11:56:18] [Server thread/INFO]: [0;36;22mServer version: v1_7_R1 - 1.7.2 - spigot[m
+[11:56:19] [Server thread/ERROR]: Error occurred while enabling CMILib v1.0.4.2 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.load(Ljava/io/Reader;)V
+	at net.Zrips.CMILib.FileHandler.ConfigReader.getyml(ConfigReader.java:247) ~[?:?]
+	at net.Zrips.CMILib.FileHandler.ConfigReader.<init>(ConfigReader.java:48) ~[?:?]
+	at net.Zrips.CMILib.FileHandler.ConfigReader.<init>(ConfigReader.java:39) ~[?:?]
+	at net.Zrips.CMILib.CMILibConfig.load(CMILibConfig.java:76) ~[?:?]
+	at net.Zrips.CMILib.CMILibConfig.load(CMILibConfig.java:71) ~[?:?]
+	at net.Zrips.CMILib.CMILib.onEnable(CMILib.java:192) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[11:56:19] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:19] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[11:56:19] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mVault compatible economy found! Economy support for CommandNPC has been enabled.[m
+[11:56:19] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInitiating Database[m
+[11:56:19] [Thread-8/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mLoading commands complete![m
+[11:56:19] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mInjecting command info into Citizens.[m
+[11:56:19] [Server thread/INFO]: [0;30;1m[[0;32;22mCommandNPC[0;30;1m] [0;33;22mCommandNPC successfully loaded![m
+[11:56:19] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:19] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[11:56:19] [Server thread/ERROR]: Error occurred while enabling EssentialsSpawn v2.19.0-dev+221-1556b91 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/gson/JsonElement
+	at com.earth2me.essentials.metrics.MetricsWrapper.<init>(MetricsWrapper.java:31) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawn.onEnable(EssentialsSpawn.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.ClassNotFoundException: com.google.gson.JsonElement
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:77) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_301]
+	... 13 more
+[11:56:19] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:19] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.24.100
+[11:56:19] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mŒ¥’“µΩPlaceholderAPI£°PAPIπ¶ƒ‹Ω´≤ª…˙–ß£°[m
+[11:56:19] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mInitializing configs......[m
+[11:56:19] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMD v1.24.100“—º”‘ÿ£°------By Normally_422[m
+[11:56:19] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mRunning on Minecraft version [0;36;22m1.7.2-R0.4-SNAPSHOT[m
+[11:56:19] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:357) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPluginListener.onPluginEnable(EssentialsPluginListener.java:26) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 14 more
+[11:56:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:56:19] [Server thread/INFO]: Done (5.384s)! For help, type "help" or "?"
+[11:56:19] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:56:19] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[11:56:19] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[11:56:22] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[11:56:38] [Server thread/INFO]: [0;33;1m[DCMD] [0;31;22m”Ô∑®¥ÌŒÛ£° ‰»Î/dcmd help≤È—Ø√¸¡Ó.[m
+[11:56:45] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[11:56:49] [Server thread/INFO]: [0;33;1m=======[0;36;22mDelayCommand Helps[0;33;1m=======[m
+[11:56:49] [Server thread/INFO]: [0;33;1m/dcmd help  [0;32;22m œ‘ æ¥À∞Ô÷˙. [0;33;1m/[0;32;22m Show helps.[m
+[11:56:49] [Server thread/INFO]: [0;33;1m/dcmd ver   [0;32;22m œ‘ æ∞Ê±æ. [0;33;1m/[0;32;22m Show Version.[m
+[11:56:49] [Server thread/INFO]: [0;33;1m/dcmd predo <player> <aftercommand>   [0;32;22m‘⁄<player>…œœﬂ ±÷¥––<aftercommand>√¸¡Ó. [0;33;1m/[0;32;22m Do <aftercommand> when <player> online.[m
+[11:56:49] [Server thread/INFO]: [0;33;1m/dcmd predodel <player> <aftercommand>   [0;32;22m…æ≥˝<player>…œœﬂ ±÷¥––µƒ<aftercommand>√¸¡Ó. [0;33;1m/[0;32;22m Delete PREDO commands.[m
+[12:01:19] [Server thread/WARN]: [CommandNPC] Task #10 for CommandNPC v1.9.1 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getOnlinePlayers()Ljava/util/Collection;
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.getServerData(Metrics.java:197) ~[?:?]
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.submitData(Metrics.java:230) ~[?:?]
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics.access$100(Metrics.java:33) ~[?:?]
+	at me.messageofdeath.commandnpc.Utilities.Metrics.Metrics$1$1.run(Metrics.java:152) ~[?:?]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:58) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:614) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:13:04] [User Authenticator #1/INFO]: UUID of player Normally_422 is ecfffea5b76141dc929f1ff284e3d39a
+[12:13:04] [Server thread/INFO]: Normally_422[/127.0.0.1:59616] logged in with entity id 429 at ([world] -205.5, 60.0, -62.5)
+[12:13:04] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to NorFriend v2.01.645
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.c(PlayerList.java:225) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.a(PlayerList.java:116) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.LoginListener.c(LoginListener.java:87) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.LoginListener.a(LoginListener.java:42) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:150) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at FOL.Friend.Message.FriendsYML.reloadFriends(FriendsYML.java:28) ~[?:?]
+	at FOL.Friend.Message.FriendsYML.getFriends(FriendsYML.java:44) ~[?:?]
+	at FOL.Friend.PlayerEvent.PlayerJoin.onjoin(PlayerJoin.java:32) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 15 more
+[12:13:04] [Server thread/INFO]: Name:Normally_422
+[12:13:05] [Server thread/ERROR]: Could not pass event PlayerTeleportEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:431) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.a(PlayerList.java:117) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.LoginListener.c(LoginListener.java:87) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.LoginListener.a(LoginListener.java:42) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:150) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerTeleport(EssentialsPlayerListener.java:521) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 15 more
+[12:13:05] [Craft Scheduler Thread - 3/WARN]: Exception in thread "Craft Scheduler Thread - 3" 
+[12:13:05] [Craft Scheduler Thread - 3/WARN]: org.apache.commons.lang.UnhandledException: Plugin Essentials v2.19.0-dev+221-1556b91 generated an exception while executing task 12
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.EssentialsPlayerListener.delayedJoin(EssentialsPlayerListener.java:284)
+	at com.earth2me.essentials.EssentialsPlayerListener.lambda$onPlayerJoin$0(EssentialsPlayerListener.java:268)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:58)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+
+[12:13:05] [Server thread/WARN]: [Essentials] Task #13 for Essentials v2.19.0-dev+221-1556b91 generated an exception
+java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.AsyncTeleport.nowAsync(AsyncTeleport.java:181) ~[?:?]
+	at com.earth2me.essentials.AsyncTeleport.now(AsyncTeleport.java:119) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener$NewPlayerTeleport.run(EssentialsSpawnPlayerListener.java:159) ~[?:?]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:58) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:614) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:13:05] [Server thread/WARN]: [Essentials] Task #14 for Essentials v2.19.0-dev+221-1556b91 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at com.earth2me.essentials.Essentials.getOnlinePlayers(Essentials.java:1187) ~[?:?]
+	at com.earth2me.essentials.Essentials.broadcastMessage(Essentials.java:1081) ~[?:?]
+	at com.earth2me.essentials.Essentials.broadcastMessage(Essentials.java:1061) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener.lambda$delayedJoin$3(EssentialsSpawnPlayerListener.java:121) ~[?:?]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:58) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:614) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:13:38] [Server thread/INFO]: Normally_422 has just earned the achievement [Taking Inventory]
+[12:13:42] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Explosion.a(Explosion.java:170) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.createExplosion(World.java:1759) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.createExplosion(WorldServer.java:873) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.cc(EntityCreeper.java:227) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.h(EntityCreeper.java:104) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathEvent(EssentialsEntityListener.java:173) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 23 more
+[12:13:42] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Explosion.a(Explosion.java:170) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.createExplosion(World.java:1759) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.createExplosion(WorldServer.java:873) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.cc(EntityCreeper.java:227) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.h(EntityCreeper.java:104) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathInvEvent(EssentialsEntityListener.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 23 more
+[12:13:42] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Explosion.a(Explosion.java:170) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.createExplosion(World.java:1759) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.createExplosion(WorldServer.java:873) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.cc(EntityCreeper.java:227) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityCreeper.h(EntityCreeper.java:104) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathExpEvent(EssentialsEntityListener.java:185) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 23 more
+[12:13:42] [Server thread/INFO]: Normally_422 was blown up by Creeper
+[12:13:44] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EssentialsSpawn v2.19.0-dev+221-1556b91
+java.lang.NullPointerException
+	at com.earth2me.essentials.User.getGroup(User.java:802) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener.onPlayerRespawn(EssentialsSpawnPlayerListener.java:68) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawn.lambda$onEnable$0(EssentialsSpawn.java:43) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:408) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:1168) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.a(SourceFile:50) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:13:49] [Server thread/INFO]: Normally_422 issued server command: /dcmd
+[12:13:56] [Server thread/INFO]: [0;33;1mDelayCommand[DCMD] [0;32;22mVersion [0;36;22m1.2 Release [0;36;22m4[0;32;22m, Build [0;36;22m100 [0;32;22m(v[0;36;22m1.24.100[0;32;22m),By Normally_422[m
+[12:14:06] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.m(EntityMonster.java:99) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.m(EntityZombie.java:218) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalMeleeAttack.e(PathfinderGoalMeleeAttack.java:100) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalSelector.a(PathfinderGoalSelector.java:108) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.bn(EntityInsentient.java:433) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.e(EntityLiving.java:1443) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.e(EntityInsentient.java:306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.e(EntityMonster.java:20) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.e(EntityZombie.java:152) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.h(EntityInsentient.java:150) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.h(EntityMonster.java:24) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.h(EntityZombie.java:214) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathEvent(EssentialsEntityListener.java:173) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 31 more
+[12:14:06] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.m(EntityMonster.java:99) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.m(EntityZombie.java:218) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalMeleeAttack.e(PathfinderGoalMeleeAttack.java:100) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalSelector.a(PathfinderGoalSelector.java:108) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.bn(EntityInsentient.java:433) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.e(EntityLiving.java:1443) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.e(EntityInsentient.java:306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.e(EntityMonster.java:20) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.e(EntityZombie.java:152) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.h(EntityInsentient.java:150) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.h(EntityMonster.java:24) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.h(EntityZombie.java:214) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathInvEvent(EssentialsEntityListener.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 31 more
+[12:14:06] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.m(EntityMonster.java:99) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.m(EntityZombie.java:218) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalMeleeAttack.e(PathfinderGoalMeleeAttack.java:100) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PathfinderGoalSelector.a(PathfinderGoalSelector.java:108) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.bn(EntityInsentient.java:433) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.e(EntityLiving.java:1443) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.e(EntityInsentient.java:306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.e(EntityMonster.java:20) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.e(EntityZombie.java:152) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1306) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityInsentient.h(EntityInsentient.java:150) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityMonster.h(EntityMonster.java:24) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityZombie.h(EntityZombie.java:214) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.entityJoinedWorld(World.java:1484) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.playerJoinedWorld(World.java:1460) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.World.tickEntities(World.java:1329) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.WorldServer.tickEntities(WorldServer.java:514) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:673) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathExpEvent(EssentialsEntityListener.java:185) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 31 more
+[12:14:06] [Server thread/INFO]: Normally_422 was slain by Zombie
+[12:14:16] [Server thread/INFO]: CONSOLE: Opped Normally_422[m
+[12:14:31] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EssentialsSpawn v2.19.0-dev+221-1556b91
+java.lang.NullPointerException
+	at com.earth2me.essentials.User.getGroup(User.java:802) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener.onPlayerRespawn(EssentialsSpawnPlayerListener.java:68) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawn.lambda$onEnable$0(EssentialsSpawn.java:43) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:408) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:1168) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.a(SourceFile:50) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:14:47] [Server thread/INFO]: Normally_422 issued server command: /dcmd ver
+[12:15:05] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.getNick(User.java:419) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:378) ~[?:?]
+	at com.earth2me.essentials.User.setDisplayNick(User.java:444) ~[?:?]
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerChat(EssentialsPlayerListener.java:171) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:05] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.getSupported(FormatUtil.java:232) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.formatString(FormatUtil.java:217) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.formatMessage(FormatUtil.java:62) ~[?:?]
+	at com.earth2me.essentials.chat.EssentialsChatPlayerListenerLowest.onPlayerChat(EssentialsChatPlayerListenerLowest.java:40) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:05] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to NorFriend v2.01.645
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at FOL.Friend.Message.FriendsYML.reloadFriends(FriendsYML.java:28) ~[?:?]
+	at FOL.Friend.Message.FriendsYML.getFriends(FriendsYML.java:44) ~[?:?]
+	at FOL.Friend.PlayerEvent.Chat.Chat(Chat.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:05] [Async Chat Thread - #0/INFO]: <Normally_422> wef[m
+[12:15:13] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.getNick(User.java:419) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:378) ~[?:?]
+	at com.earth2me.essentials.User.setDisplayNick(User.java:444) ~[?:?]
+	at com.earth2me.essentials.EssentialsPlayerListener.onPlayerChat(EssentialsPlayerListener.java:171) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:13] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to EssentialsChat v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.getSupported(FormatUtil.java:232) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.formatString(FormatUtil.java:217) ~[?:?]
+	at com.earth2me.essentials.utils.FormatUtil.formatMessage(FormatUtil.java:62) ~[?:?]
+	at com.earth2me.essentials.chat.EssentialsChatPlayerListenerLowest.onPlayerChat(EssentialsChatPlayerListenerLowest.java:40) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:13] [Async Chat Thread - #0/ERROR]: Could not pass event AsyncPlayerChatEvent to NorFriend v2.01.645
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.chat(PlayerConnection.java:891) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:831) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat.a(PacketPlayInChat.java:28) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:59) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_301]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+Caused by: java.lang.NullPointerException
+	at FOL.Friend.Message.FriendsYML.reloadFriends(FriendsYML.java:28) ~[?:?]
+	at FOL.Friend.Message.FriendsYML.getFriends(FriendsYML.java:44) ~[?:?]
+	at FOL.Friend.PlayerEvent.Chat.Chat(Chat.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 13 more
+[12:15:13] [Async Chat Thread - #0/INFO]: <Normally_422> wefg[m
+[12:15:26] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.C(EntityLiving.java:185) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Entity.h(Entity.java:254) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1272) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.h(EntityHuman.java:162) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.i(EntityPlayer.java:256) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:343) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.a(SourceFile:137) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathEvent(EssentialsEntityListener.java:173) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 24 more
+[12:15:26] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.C(EntityLiving.java:185) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Entity.h(Entity.java:254) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1272) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.h(EntityHuman.java:162) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.i(EntityPlayer.java:256) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:343) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.a(SourceFile:137) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathInvEvent(EssentialsEntityListener.java:194) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 24 more
+[12:15:26] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Essentials v2.19.0-dev+221-1556b91
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.TimedRegisteredListener.callEvent(TimedRegisteredListener.java:30) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.craftbukkit.v1_7_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:366) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.die(EntityPlayer.java:384) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.damageEntity(EntityLiving.java:739) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.damageEntity(EntityHuman.java:751) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.damageEntity(EntityPlayer.java:462) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.C(EntityLiving.java:185) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.Entity.h(Entity.java:254) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityLiving.h(EntityLiving.java:1272) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityHuman.h(EntityHuman.java:162) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.EntityPlayer.i(EntityPlayer.java:256) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:343) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.a(SourceFile:137) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInFlying.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+Caused by: java.lang.NullPointerException
+	at com.earth2me.essentials.User.isAuthorizedCheck(User.java:145) ~[?:?]
+	at com.earth2me.essentials.User.isAuthorized(User.java:110) ~[?:?]
+	at com.earth2me.essentials.EssentialsEntityListener.onPlayerDeathExpEvent(EssentialsEntityListener.java:185) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:318) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	... 24 more
+[12:15:26] [Server thread/INFO]: Normally_422 drowned whilst trying to escape Zombie
+[12:15:31] [Server thread/ERROR]: Could not pass event PlayerRespawnEvent to EssentialsSpawn v2.19.0-dev+221-1556b91
+java.lang.NullPointerException
+	at com.earth2me.essentials.User.getGroup(User.java:802) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawnPlayerListener.onPlayerRespawn(EssentialsSpawnPlayerListener.java:68) ~[?:?]
+	at com.earth2me.essentials.spawn.EssentialsSpawn.lambda$onEnable$0(EssentialsSpawn.java:43) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:487) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:472) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerList.moveToWorld(PlayerList.java:408) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:1168) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.a(SourceFile:50) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.PacketPlayInClientCommand.handle(SourceFile:8) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:147) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(ServerConnection.java:77) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:700) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:273) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:562) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:469) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [spigot-1.7.2-R0.4-SNAPSHOT-b1322.jar:git-Spigot-1322]
+[12:15:33] [Server thread/INFO]: Normally_422 lost connection: Internal Exception: java.io.IOException: ‘∂≥Ã÷˜ª˙«ø∆»πÿ±’¡À“ª∏ˆœ÷”–µƒ¡¨Ω”°£
+[12:15:33] [Server thread/INFO]: [-] Normally_422
+[12:15:33] [Craft Scheduler Thread - 5/WARN]: Exception in thread "Craft Scheduler Thread - 5" 
+[12:15:33] [Craft Scheduler Thread - 5/WARN]: org.apache.commons.lang.UnhandledException: Plugin Essentials v2.19.0-dev+221-1556b91 generated an exception while executing task 17
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getOfflinePlayer(Ljava/util/UUID;)Lorg/bukkit/OfflinePlayer;
+	at com.earth2me.essentials.OfflinePlayer.<init>(OfflinePlayer.java:78)
+	at com.earth2me.essentials.User._dispose(User.java:294)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:58)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+

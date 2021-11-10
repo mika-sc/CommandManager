@@ -1,0 +1,385 @@
+[18:16:53] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[18:16:53] [Server thread/INFO]: Loading properties
+[18:16:53] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-ea7e48b-660b6d1 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[18:16:54] [Server thread/INFO]: Debug logging is disabled
+[18:16:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:16:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:16:54] [Server thread/INFO]: Default game type: SURVIVAL
+[18:16:54] [Server thread/INFO]: Generating keypair
+[18:16:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:16:54] [Server thread/INFO]: Using default channel type
+[18:17:02] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[18:17:02] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[18:17:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:17:03] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:17:03] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:17:03] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:17:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:17:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:17:03] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:17:03] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.31.119
+[18:17:03] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[18:17:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:17:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:17:03] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:17:03] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:17:04] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:17:04] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:17:04] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:17:04] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[18:17:04] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[18:17:04] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[18:17:04] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[18:17:04] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[18:17:04] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_14_R1
+[18:17:04] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[18:17:04] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[18:17:04] [Server thread/WARN]: [BedWars1058] Lobby location is not set!
+[18:17:09] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[18:17:09] [Server thread/INFO]: Preparing level "world"
+[18:17:09] [Server thread/INFO]: Found new data pack file/bukkit, loading it automatically
+[18:17:09] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
+[18:17:09] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:17:10] [Server thread/INFO]: Loaded 6 recipes
+[18:17:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:17:10] [Server thread/INFO]: View Distance: 10
+[18:17:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:17:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:17:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:17:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:17:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:17:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:17:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:17:10] [Server thread/INFO]: Max TNT Explosions: 100
+[18:17:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:17:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:17:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:17:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:17:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:17:10] [Server thread/INFO]: Mob Spawn Range: 6
+[18:17:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:17:10] [Server thread/WARN]: Unable to find spawn biome
+[18:17:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:17:24] [Server thread/INFO]: View Distance: 10
+[18:17:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:17:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:17:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:17:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:17:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:17:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:17:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:17:24] [Server thread/INFO]: Max TNT Explosions: 100
+[18:17:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:17:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:17:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:17:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:17:24] [Server thread/INFO]: Mob Spawn Range: 6
+[18:17:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:17:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:17:24] [Server thread/INFO]: View Distance: 10
+[18:17:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:17:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:17:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:17:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:17:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:17:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:17:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:17:24] [Server thread/INFO]: Max TNT Explosions: 100
+[18:17:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:17:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:17:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:17:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:17:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:17:24] [Server thread/INFO]: Mob Spawn Range: 6
+[18:17:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:17:24] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:17:24] [Server-Worker-4/INFO]: Preparing spawn area: 27%
+[18:17:25] [Server-Worker-2/INFO]: Preparing spawn area: 27%
+[18:17:25] [Server-Worker-2/INFO]: Preparing spawn area: 27%
+[18:17:26] [Server-Worker-4/INFO]: Preparing spawn area: 28%
+[18:17:26] [Server-Worker-1/INFO]: Preparing spawn area: 30%
+[18:17:27] [Server-Worker-8/INFO]: Preparing spawn area: 34%
+[18:17:27] [Server-Worker-9/INFO]: Preparing spawn area: 39%
+[18:17:28] [Server-Worker-4/INFO]: Preparing spawn area: 42%
+[18:17:28] [Server-Worker-1/INFO]: Preparing spawn area: 45%
+[18:17:29] [Server-Worker-9/INFO]: Preparing spawn area: 48%
+[18:17:29] [Server-Worker-3/INFO]: Preparing spawn area: 48%
+[18:17:30] [Server-Worker-3/INFO]: Preparing spawn area: 55%
+[18:17:30] [Server-Worker-6/INFO]: Preparing spawn area: 58%
+[18:17:31] [Server-Worker-9/INFO]: Preparing spawn area: 61%
+[18:17:31] [Server-Worker-1/INFO]: Preparing spawn area: 64%
+[18:17:32] [Server-Worker-1/INFO]: Preparing spawn area: 68%
+[18:17:32] [Server-Worker-8/INFO]: Preparing spawn area: 71%
+[18:17:33] [Server-Worker-6/INFO]: Preparing spawn area: 75%
+[18:17:33] [Server-Worker-9/INFO]: Preparing spawn area: 78%
+[18:17:34] [Server-Worker-9/INFO]: Preparing spawn area: 81%
+[18:17:34] [Server-Worker-6/INFO]: Preparing spawn area: 84%
+[18:17:35] [Server-Worker-9/INFO]: Preparing spawn area: 88%
+[18:17:35] [Server-Worker-8/INFO]: Preparing spawn area: 91%
+[18:17:36] [Server-Worker-9/INFO]: Preparing spawn area: 94%
+[18:17:36] [Server-Worker-2/INFO]: Preparing spawn area: 98%
+[18:17:37] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[18:17:37] [Server thread/INFO]: Time elapsed: 12568 ms
+[18:17:37] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[18:17:37] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:17:37] [Server-Worker-6/INFO]: Preparing spawn area: 0%
+[18:17:38] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:17:38] [Server-Worker-4/INFO]: Preparing spawn area: 3%
+[18:17:39] [Server-Worker-2/INFO]: Preparing spawn area: 10%
+[18:17:39] [Server-Worker-8/INFO]: Preparing spawn area: 18%
+[18:17:40] [Server-Worker-9/INFO]: Preparing spawn area: 28%
+[18:17:40] [Server-Worker-3/INFO]: Preparing spawn area: 36%
+[18:17:41] [Server-Worker-3/INFO]: Preparing spawn area: 42%
+[18:17:41] [Server-Worker-2/INFO]: Preparing spawn area: 50%
+[18:17:42] [Server-Worker-9/INFO]: Preparing spawn area: 60%
+[18:17:42] [Server-Worker-6/INFO]: Preparing spawn area: 63%
+[18:17:43] [Server-Worker-3/INFO]: Preparing spawn area: 78%
+[18:17:43] [Server-Worker-3/INFO]: Preparing spawn area: 88%
+[18:17:44] [Server thread/INFO]: Time elapsed: 6998 ms
+[18:17:44] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:17:44] [Server-Worker-8/INFO]: Preparing spawn area: 0%
+[18:17:44] [Server-Worker-8/INFO]: Preparing spawn area: 0%
+[18:17:45] [Server-Worker-9/INFO]: Preparing spawn area: 16%
+[18:17:45] [Server-Worker-1/INFO]: Preparing spawn area: 52%
+[18:17:46] [Server-Worker-8/INFO]: Preparing spawn area: 95%
+[18:17:46] [Server thread/INFO]: Time elapsed: 2047 ms
+[18:17:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[18:17:46] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.31.119
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mÎ´ÕÒµ½PlaceholderAPI£¡PAPI¹¦ÄÜ½«²»ÉúÐ§£¡[m
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mError: Î´ÕÒµ½CitizensII²å¼þ![m
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mError: Î´ÕÒµ½CommandNPC²å¼þ![m
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mInitializing configs......[m
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMD [0;36;22mv1.31.119[0;32;22mÒÑ¼ÓÔØ£¡------By Normally_422[m
+[18:17:46] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mRunning on Minecraft server version [0;36;22m1.14.4[m
+[18:17:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[18:17:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:17:46] [Server thread/INFO]: Done (36.512s)! For help, type "help"
+[18:17:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.14.4 (498)
+[18:17:46] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_301). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[18:17:46] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:17:47] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[18:17:51] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[18:45:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f506e6e[id=<null>,name=Normally_422,properties={},legacy=false] (/127.0.0.1:57329) lost connection: Disconnected
+[18:47:14] [Server thread/INFO]: [0;33;1m[DCMD] [0;31;22mÓï·¨´íÎó£¡ÊäÈë/dcmd help²éÑ¯ÃüÁî.[m
+[18:47:16] [Server thread/INFO]: [0;33;1mDelayCommand[DCMD] [0;32;22mVersion [0;36;22m1.3 Alpha [0;36;22m1[0;32;22m, Build [0;36;22m119 [0;32;22m(v[0;36;22m1.31.119[0;32;22m),By Normally_422[m
+[18:48:38] [User Authenticator #1/INFO]: UUID of player Normally_422 is ecfffea5-b761-41dc-929f-1ff284e3d39a
+[18:48:38] [Server thread/INFO]: Name:Normally_422
+[18:48:39] [Server thread/INFO]: Normally_422[/127.0.0.1:57587] logged in with entity id 173 at ([world]-94.5, 67.0, 108.5)
+[18:49:08] [Server thread/INFO]: Normally_422 issued server command: /bedwars
+[18:49:14] [Server thread/INFO]: Normally_422 issued server command: /bedwars start
+[18:49:24] [Server thread/INFO]: Normally_422 issued server command: /bw gui
+[18:49:40] [Server thread/INFO]: Normally_422 issued server command: /bw stats
+[18:49:50] [Server thread/INFO]: That player does not exist
+[18:49:57] [Server thread/INFO]: Made Normally_422 a server operator
+[18:50:03] [Server thread/INFO]: Normally_422 issued server command: /bedwars
+[18:50:19] [Server thread/INFO]: Normally_422 issued server command: /bw arenaGroup
+[18:54:48] [Server thread/INFO]: Normally_422 lost connection: Disconnected
+[19:26:50] [User Authenticator #2/INFO]: UUID of player Normally_422 is ecfffea5-b761-41dc-929f-1ff284e3d39a
+[19:26:50] [Server thread/INFO]: Name:Normally_422
+[19:26:50] [Server thread/INFO]: Normally_422[/127.0.0.1:58969] logged in with entity id 454 at ([world]-67.55522262377316, 74.0, 88.16615569398641)
+[19:27:03] [Server thread/INFO]: Normally_422 issued server command: /reload
+[19:27:03] [Server thread/INFO]: Normally_422: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:27:03] [Server thread/INFO]: Normally_422: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:27:03] [Server thread/INFO]: Debug logging is disabled
+[19:27:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:27:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:27:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:27:03] [Server thread/INFO]: View Distance: 10
+[19:27:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:27:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:27:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:27:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:27:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:27:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:27:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:27:03] [Server thread/INFO]: Max TNT Explosions: 100
+[19:27:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:27:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:27:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:27:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:27:03] [Server thread/INFO]: Mob Spawn Range: 6
+[19:27:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:27:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:27:03] [Server thread/INFO]: View Distance: 10
+[19:27:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:27:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:27:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:27:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:27:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:27:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:27:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:27:03] [Server thread/INFO]: Max TNT Explosions: 100
+[19:27:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:27:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:27:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:27:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:27:03] [Server thread/INFO]: Mob Spawn Range: 6
+[19:27:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:27:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:27:03] [Server thread/INFO]: View Distance: 10
+[19:27:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:27:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:27:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:27:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:27:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:27:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:27:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:27:03] [Server thread/INFO]: Max TNT Explosions: 100
+[19:27:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:27:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:27:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:27:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:27:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:27:03] [Server thread/INFO]: Mob Spawn Range: 6
+[19:27:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:27:03] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[19:27:03] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[19:27:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.1
+[19:27:03] [Server thread/INFO]: [DelayCommand] Disabling DelayCommand v1.31.119
+[19:27:03] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMDÒÑ¹Ø±Õ£¡[m
+[19:27:03] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mSaving configs......[m
+[19:27:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[19:27:03] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:27:03] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:27:04] [Server thread/INFO]: Loaded 6 recipes
+[19:27:04] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:27:05] [Server thread/INFO]: Loaded 6 recipes
+[19:27:05] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[19:27:05] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[19:27:05] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[19:27:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:27:05] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:27:06] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:27:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:27:06] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:27:06] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:27:06] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:27:07] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:27:07] [Server thread/INFO]: [DelayCommand] Loading DelayCommand v1.31.119
+[19:27:07] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[19:27:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[19:27:07] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[19:27:07] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[19:27:07] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[19:27:07] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[19:27:07] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[19:27:07] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_14_R1
+[19:27:08] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[19:27:08] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 vgit-c7a25b09-21.2-SNAPSHOT
+[19:27:08] [Server thread/WARN]: [BedWars1058] Lobby location is not set!
+[19:27:08] [Server thread/INFO]: Normally_422 lost connection: BedWars1058 was RELOADED! (do not reload plugins)
+[19:27:08] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[19:27:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[19:27:08] [Server thread/INFO]: [DelayCommand] Enabling DelayCommand v1.31.119
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mÎ´ÕÒµ½PlaceholderAPI£¡PAPI¹¦ÄÜ½«²»ÉúÐ§£¡[m
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mError: Î´ÕÒµ½CitizensII²å¼þ![m
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;31;22mError: Î´ÕÒµ½CommandNPC²å¼þ![m
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mInitializing configs......[m
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mDCMD [0;36;22mv1.31.119[0;32;22mÒÑ¼ÓÔØ£¡------By Normally_422[m
+[19:27:08] [Server thread/INFO]: [0;33;1m[DelayCommand] [0;32;22mRunning on Minecraft server version [0;36;22m1.14.4[m
+[19:27:08] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[19:27:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:27:08] [Server thread/INFO]: Normally_422: [0;32;1mReload complete.[m
+[19:27:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.14.4 (498)
+[19:27:08] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_301). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[19:27:08] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:27:08] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[19:27:09] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false

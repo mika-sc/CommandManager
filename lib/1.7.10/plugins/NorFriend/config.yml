@@ -1,0 +1,25 @@
+#NorFriend v2.01.645 (v2.0 Alpha 1 Build 645)
+
+FOLFriends:
+# language can change lang
+  language: cn
+# Shift-RightClick is control player click player to send invitation, use enter true,
+# if you don't use that, enter false. 
+  Shift-RightClick: true
+# tp-player can teleport to player if it was true
+  tp-Player: true
+Vault:
+  EconomyUse: true
+  TP: 10
+  text: 'You Spent'
+  money:
+    Name: 'Gold'
+# If you want Use SQL, please MySQL set "true"
+SQL:
+  MySQL: false
+  Host: localhost
+  port: 3306
+  User: root
+  Password: root
+    
+  

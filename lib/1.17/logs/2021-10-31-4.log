@@ -1,0 +1,1388 @@
+[06:32:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:32:47] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[06:32:49] [Worker-Main-8/INFO]: Loaded 7 recipes
+[06:32:55] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[06:32:55] [Server thread/INFO]: Loading properties
+[06:32:56] [Server thread/INFO]: This server is running CraftBukkit version 3198-Spigot-18c71bf-0abf420 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[06:32:56] [Server thread/INFO]: Debug logging is disabled
+[06:32:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:32:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:32:56] [Server thread/INFO]: Default game type: SURVIVAL
+[06:32:56] [Server thread/INFO]: Generating keypair
+[06:32:57] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
+[06:32:57] [Server thread/INFO]: Using default channel type
+[06:33:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[06:33:14] [Server thread/WARN]: Legacy plugin BetterInputOutput v1.03build39 does not specify an api-version.
+[06:33:15] [Server thread/WARN]: Legacy plugin FOLFriends v1.2.9 does not specify an api-version.
+[06:33:16] [Server thread/INFO]: [BetterInputOutput] Loading BetterInputOutput v1.03build39
+[06:33:16] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[06:33:16] [Server thread/INFO]: [FOLFriends] Loading FOLFriends v1.2.9
+[06:33:16] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[06:33:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, injecting!
+[06:33:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[06:33:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[06:33:17] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[06:33:18] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[06:33:18] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[06:33:18] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[06:33:18] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.0.1
+[06:33:18] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[06:33:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:33:18] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[06:33:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:33:18] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[06:33:18] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[06:33:19] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[06:33:19] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[06:33:19] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[06:33:19] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[06:33:19] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[06:33:19] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[06:33:19] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[06:33:20] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.1-SNAPSHOT-b530
+[06:33:23] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[06:33:23] [Server thread/INFO]: [ZMusic] Loading ZMusic v2.0.7
+[06:33:23] [Server thread/INFO]: [ZMusic-Addon] Loading ZMusic-Addon v1.2
+[06:33:23] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.5
+[06:33:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+221-1556b91
+[06:33:23] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.19.0-dev+221-1556b91
+[06:33:23] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.0-dev+221-1556b91
+[06:33:23] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.4.2
+[06:33:23] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.0-dev+221-1556b91
+[06:33:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:33:24] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+221-1556b91 which is not a depend, softdepend or loadbefore of this plugin.
+[06:33:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:33:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:33:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:33:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[06:33:24] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[06:33:24] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[06:33:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:33:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:33:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:33:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:33:25] [Server thread/INFO]: Preparing level "world"
+[06:33:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:33:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:25] [Server thread/INFO]: View Distance: 10
+[06:33:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:25] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:33:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:33:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:33:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:25] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:33:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:33:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:25] [Server thread/INFO]: View Distance: 10
+[06:33:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:25] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:33:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:33:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:33:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:25] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:33:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:33:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:25] [Server thread/INFO]: View Distance: 10
+[06:33:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:25] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:33:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:33:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:33:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:33:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:25] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:33:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:33:26] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:26] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:26] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:27] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:27] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:33:28] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:28] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[06:33:29] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:33:29] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[06:33:30] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:40] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:33:42] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:54] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:33:59] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[06:33:59] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[06:34:00] [Worker-Main-11/INFO]: Preparing spawn area: 6%
+[06:34:00] [Worker-Main-13/INFO]: Preparing spawn area: 6%
+[06:34:01] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[06:34:01] [Worker-Main-8/INFO]: Preparing spawn area: 7%
+[06:34:02] [Worker-Main-11/INFO]: Preparing spawn area: 9%
+[06:34:02] [Worker-Main-14/INFO]: Preparing spawn area: 9%
+[06:34:03] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[06:34:03] [Worker-Main-13/INFO]: Preparing spawn area: 9%
+[06:34:04] [Worker-Main-10/INFO]: Preparing spawn area: 12%
+[06:34:05] [Worker-Main-8/INFO]: Preparing spawn area: 15%
+[06:34:05] [Worker-Main-8/INFO]: Preparing spawn area: 15%
+[06:34:05] [Worker-Main-13/INFO]: Preparing spawn area: 15%
+[06:34:06] [Worker-Main-11/INFO]: Preparing spawn area: 19%
+[06:34:06] [Worker-Main-9/INFO]: Preparing spawn area: 20%
+[06:34:07] [Worker-Main-14/INFO]: Preparing spawn area: 22%
+[06:34:07] [Worker-Main-9/INFO]: Preparing spawn area: 23%
+[06:34:08] [Worker-Main-10/INFO]: Preparing spawn area: 34%
+[06:34:08] [Worker-Main-9/INFO]: Preparing spawn area: 41%
+[06:34:09] [Worker-Main-13/INFO]: Preparing spawn area: 54%
+[06:34:09] [Worker-Main-13/INFO]: Preparing spawn area: 54%
+[06:34:10] [Worker-Main-12/INFO]: Preparing spawn area: 55%
+[06:34:10] [Worker-Main-12/INFO]: Preparing spawn area: 55%
+[06:34:11] [Worker-Main-9/INFO]: Preparing spawn area: 56%
+[06:34:11] [Worker-Main-9/INFO]: Preparing spawn area: 59%
+[06:34:12] [Worker-Main-12/INFO]: Preparing spawn area: 70%
+[06:34:12] [Worker-Main-13/INFO]: Preparing spawn area: 70%
+[06:34:13] [Worker-Main-12/INFO]: Preparing spawn area: 70%
+[06:34:13] [Worker-Main-13/INFO]: Preparing spawn area: 81%
+[06:34:14] [Worker-Main-13/INFO]: Preparing spawn area: 92%
+[06:34:14] [Worker-Main-8/INFO]: Preparing spawn area: 96%
+[06:34:15] [Worker-Main-14/INFO]: Preparing spawn area: 97%
+[06:34:16] [Server thread/INFO]: Time elapsed: 50237 ms
+[06:34:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:34:16] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:34:16] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:34:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:34:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:34:18] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[06:34:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:34:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[06:34:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[06:34:20] [Worker-Main-10/INFO]: Preparing spawn area: 7%
+[06:34:20] [Worker-Main-13/INFO]: Preparing spawn area: 12%
+[06:34:21] [Worker-Main-9/INFO]: Preparing spawn area: 14%
+[06:34:21] [Worker-Main-14/INFO]: Preparing spawn area: 15%
+[06:34:22] [Worker-Main-14/INFO]: Preparing spawn area: 23%
+[06:34:22] [Worker-Main-9/INFO]: Preparing spawn area: 79%
+[06:34:23] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[06:34:23] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[06:34:24] [Worker-Main-13/INFO]: Preparing spawn area: 97%
+[06:34:24] [Server thread/INFO]: Time elapsed: 8116 ms
+[06:34:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:34:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[06:34:24] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[06:34:25] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[06:34:25] [Worker-Main-8/INFO]: Preparing spawn area: 42%
+[06:34:26] [Server thread/INFO]: Time elapsed: 1842 ms
+[06:34:26] [Server thread/INFO]: [BetterInputOutput] Enabling BetterInputOutput v1.03build39
+[06:34:26] [Server thread/INFO]: ¡ìe[BetterInputOutput] BIO Version 1.03.39 has been enabled.------By Normally_422
+[06:34:26] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[06:34:26] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.0.1 which is not a depend, softdepend or loadbefore of this plugin.
+[06:34:26] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:34:26] [Server thread/INFO]: [FOLFriends] Enabling FOLFriends v1.2.9
+[06:34:26] [Server thread/ERROR]: Error occurred while enabling FOLFriends v1.2.9 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "FOL.Friend.Main.FOLFriends.getInstance()" because "FOL.Friend.Versions.NMSUtil.main" is null
+	at FOL.Friend.Versions.NMSUtil.setupNMS(NMSUtil.java:61) ~[?:?]
+	at FOL.Friend.Main.FOLFriends.onEnable(FOLFriends.java:39) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:505) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:419) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:604) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:266) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:995) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[06:34:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[06:34:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.0.1
+[06:34:26] [Server thread/INFO]: [ZMusic] Enabling ZMusic v2.0.7
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ¼ÓÔØÖÐ....[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ×¢²áModÍ¨ÐÅÆµµÀ...[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mAllMusic[m][0;32;1m ÆµµÀ×¢²áÍê±Ï.[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m-- [m[[0;33;1mAudioBuffer[m][0;31;1m ·þÎñ¶Ë´óÓÚ1.12£¬ÆµµÀ×¢²áÈ¡Ïû.[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½[0;33;1mPlaceholderAPI[0;32;1m, ÕýÔÚ×¢²á...[m
+[06:34:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: zmusic
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mPlaceholderAPI[m] [0;32;1m×¢²á³É¹¦![m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½Vault, ¾­¼Ã¹¦ÄÜÉúÐ§.[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½ViaVersion, ¸ß°æ±¾×ª·¢¹¦ÄÜÉúÐ§.[m
+[06:34:26] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³É¹¦¼ÓÔØÅäÖÃÎÄ¼þ![m
+[06:34:26] [Server thread/INFO]: [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+[06:34:26] [Server thread/WARN]: [ZMusic-Addon] ¡ìcÇëÎðÔÚ×Ó·þ°²×°ZMusic²å¼þ
+[06:34:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.5
+[06:34:26] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mUsing SpigotSkinRefresher[m
+[06:34:26] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_17_R1[0;32;1m, using [0;33;1mSpigotSkinRefresher[0;32;1m.[m
+[06:34:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+221-1556b91
+[06:34:33] [Server thread/INFO]: [Essentials] You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[06:34:33] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[06:34:33] [Server thread/INFO]: No kits found to migrate.
+[06:34:33] [Server thread/INFO]: Loaded 36837 items from items.json.
+[06:34:33] [Server thread/INFO]: Using locale zh_CN
+[06:34:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:34:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:34:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[06:34:34] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[06:34:34] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.0-dev+221-1556b91
+[06:34:34] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[06:34:34] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[06:34:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.0-dev+221-1556b91
+[06:34:34] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[06:34:34] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.4.2
+[06:34:36] [Server thread/INFO]: [0;36;22mServer version: v1_17_R1 - 1.17.1 - spigot[m
+[06:34:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil
+[06:34:38] [Server thread/INFO]: PlaceholderAPI hooked.[m
+[06:34:38] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m151ms[m
+[06:34:38] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[06:34:38] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[06:34:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:34:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:34:39] [Server thread/INFO]: Done (74.055s)! For help, type "help"
+[06:34:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.17.1 (756)
+[06:34:39] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ³¢ÊÔµÇÂ¼ÍøÒ×ÔÆÒôÀÖ...[m
+[06:34:39] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mActivating ViaBackwards workaround.[m
+[06:34:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[06:34:39] [Server thread/INFO]: [0;33;22mNo expansions were registered![m
+[06:34:39] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[06:34:39] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[06:34:39] [Craft Scheduler Thread - 6/INFO]: [Essentials] ¡ì6ÕýÔÚ»ñÈ¡°æ±¾ÐÅÏ¢...
+[06:34:39] [Craft Scheduler Thread - 8/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_DE.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 8/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 20/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_CZ.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 16/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_PL.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 16/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 17/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_NO.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 17/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 20/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 13/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_SK.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 13/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 19/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_TR.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 11/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_LT.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 11/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 10/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_IT.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 7/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_CN.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 10/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 14/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_SL.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 14/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 19/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 15/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_FR.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 15/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 18/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_ZH.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 9/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_ES.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 9/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 12/INFO]: Failed to download https://raw.githubusercontent.com/Zrips/CMILib/master/Translations/Locale_RU.yml file into plugins\CMILib\Translations\ folder [m
+[06:34:39] [Craft Scheduler Thread - 7/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 12/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 18/INFO]: You can do it manually or try again later or simply ignore it[m
+[06:34:39] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1mµÇÂ¼Ê§°Ü: 501[m
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.lambda$loginNetease$1(OtherUtils.java:157)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.loginNetease(OtherUtils.java:177)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at cn.iqianye.mc.zmusic.ZMusic.lambda$loadEnd$0(ZMusic.java:61)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:82)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[06:34:39] [Craft Scheduler Thread - 2/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[06:34:39] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ¼ì²é¸üÐÂ...[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |  [0;34;1m[4m[21mStandalone Mode[0;32;1m |[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.5[m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
+[06:34:39] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑÊÇ×îÐÂ°æ±¾![m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³õÊ¼»¯ÓïÑÔÏµÍ³...[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼þzh_CN[ÖÐÎÄ (ÖÐ¹ú)]¼ÓÔØÍê³É[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼þ×÷Õß: ÕæÐÄ[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ×÷Õß: ÕæÐÄ[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²©¿Í£ºwww.zhenxin.xyz[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mQQ£º1307993674[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ½»Á÷Èº£º1032722724[m
+[06:34:40] [Craft Scheduler Thread - 2/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þÒÑ¼ÓÔØÍê³É![m
+[06:34:40] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[06:34:40] [Craft Scheduler Thread - 6/WARN]: [Essentials] ¡ì4ÄãÕýÔÚÔËÐÐµÄEssentialsXÒÑ¹ýÆÚ¡ìc68¡ì4¸ö¿ª·¢°æ±¾£¡
+[06:34:40] [Craft Scheduler Thread - 6/WARN]: [Essentials] ¡ì4ÔÚ´Ë´¦ÏÂÔØ£º¡ìchttps://essentialsx.net/downloads.html
+[06:34:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[06:35:00] [Server thread/INFO]: [0;31;1m you are not player!![m
+[06:35:05] [User Authenticator #1/INFO]: UUID of player Normally_422 is aa98be6b-0cf4-37ee-af25-e5740ebe4c53
+[06:35:06] [Server thread/INFO]: Normally_422[/127.0.0.1:62215] logged in with entity id 180 at ([world_the_end]60.87323588612174, 51.0, 1.590487771555595)
+[06:35:11] [Server thread/INFO]: Normally_422 issued server command: /folfriend
+[06:35:19] [Server thread/INFO]: Normally_422 hit the ground too hard whilst trying to escape Enderman
+[06:35:31] [Server thread/INFO]: Normally_422 issued server command: /folfriend gui
+[06:35:36] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:35:37] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:35:38] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeAll(SourceFile:110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1109) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:35:40] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:35:44] [Server thread/INFO]: Normally_422 issued server command: /folfriend gui
+[06:35:46] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:35:47] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[06:36:21] [Server thread/INFO]: Normally_422 fell out of the world
+[06:36:50] [Server thread/INFO]: Normally_422 issued server command: /folfriend invite Normally_422
+[06:36:54] [Server thread/INFO]: Normally_422 issued server command: /folfriend invite Bl
+[06:37:42] [Server thread/INFO]: Normally_422 hit the ground too hard
+[06:37:49] [Server thread/INFO]: Normally_422 tried to swim in lava
+[06:58:51] [Server thread/INFO]: Normally_422 tried to swim in lava to escape Zombie
+[07:19:22] [Server thread/INFO]: Normally_422 lost connection: Disconnected
+[07:19:22] [Server thread/INFO]: [-] Normally_422
+[12:19:39] [Server thread/ERROR]: Failed to save level .\world
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:171) ~[?:?]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:237) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:102) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:73) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:412) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.level.WorldServer.save(WorldServer.java:852) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.saveChunks(MinecraftServer.java:849) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1222) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:19:39] [Server thread/ERROR]: Failed to save level .\world_nether
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:171) ~[?:?]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:237) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:102) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:73) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:412) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.level.WorldServer.save(WorldServer.java:852) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.saveChunks(MinecraftServer.java:849) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1222) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:19:39] [Server thread/ERROR]: Failed to save level .\world_the_end
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:171) ~[?:?]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:237) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:102) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:73) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.storage.Convertable$ConversionSession.a(Convertable.java:412) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.level.WorldServer.save(WorldServer.java:852) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.saveChunks(MinecraftServer.java:849) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1222) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:27:11] [User Authenticator #2/INFO]: UUID of player Normally_422 is aa98be6b-0cf4-37ee-af25-e5740ebe4c53
+[12:27:14] [Server thread/INFO]: Normally_422[/127.0.0.1:59432] logged in with entity id 2906 at ([world]27.140424688166863, 84.0, -67.27335351888571)
+[12:27:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6641ms or 132 ticks behind
+[12:27:26] [Server thread/INFO]: Normally_422 tried to swim in lava to escape Zombie
+[12:27:48] [Server thread/INFO]: Normally_422 issued server command: /folfriend
+[12:27:54] [Server thread/INFO]: Normally_422 issued server command: /folfriend gui
+[12:27:58] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[12:27:58] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(SourceFile:134) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[12:28:04] [Server thread/ERROR]: Could not pass event InventoryClickEvent to FOLFriends v1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2427) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:55) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:11) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:30) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(SourceFile:151) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(SourceFile:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1133) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1126) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.IAsyncTaskHandler.executeAll(SourceFile:110) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1109) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1039) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.getName()'
+	at FOL.Friend.PlayerEvent.InvClick.Click(InvClick.java:65) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 18 more
+[12:28:29] [Server thread/INFO]: Normally_422 issued server command: /zmusic play kugou mabeha-skywars
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: java.lang.ClassCastException: class com.google.gson.JsonObject cannot be cast to class com.google.gson.JsonArray (com.google.gson.JsonObject and com.google.gson.JsonArray are in unnamed module of loader 'app')
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at com.google.gson.JsonObject.getAsJsonArray(JsonObject.java:181)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at cn.iqianye.mc.zmusic.music.searchSource.KuGouMusic.getMusicUrl(KuGouMusic.java:30)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at cn.iqianye.mc.zmusic.music.PlayMusic.play(PlayMusic.java:57)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at cn.iqianye.mc.zmusic.command.Cmd.lambda$cmd$1(Cmd.java:102)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:82)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[12:28:30] [Craft Scheduler Thread - 31/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[12:28:31] [Server thread/INFO]: Normally_422 issued server command: /zmusic play kugou mabeha-skyward
+[12:28:55] [IO-Worker-337/ERROR]: Failed to store chunk [-17, 2]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:28:55] [IO-Worker-337/ERROR]: Failed to store chunk [-17, 2]
+java.util.concurrent.CompletionException: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:367) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:376) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1093) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:157) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 8 more
+[12:28:55] [IO-Worker-337/ERROR]: Failed to store chunk [-16, 2]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:28:55] [IO-Worker-337/ERROR]: Failed to store chunk [-16, 2]
+java.util.concurrent.CompletionException: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:367) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:376) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1093) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:157) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 8 more
+[12:29:45] [Server thread/WARN]: Failed to save player data for Normally_422
+[12:29:45] [Server thread/ERROR]: Couldn't save stats
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:334) ~[?:?]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.IOUtils.write(IOUtils.java:1857) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1982) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:2017) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.stats.ServerStatisticManager.save(ServerStatisticManager.java:72) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayerFile(PlayerList.java:473) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayers(PlayerList.java:1015) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1221) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:45] [Server thread/ERROR]: Encountered an unexpected exception
+com.google.gson.JsonIOException: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at com.google.gson.Gson.toJson(Gson.java:747) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.Gson.toJson(Gson.java:703) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.AdvancementDataPlayer.b(AdvancementDataPlayer.java:245) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayerFile(PlayerList.java:479) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayers(PlayerList.java:1015) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1221) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242) ~[?:?]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:312) ~[?:?]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:290) ~[?:?]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:131) ~[?:?]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:141) ~[?:?]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:223) ~[?:?]
+	at com.google.gson.stream.JsonWriter.string(JsonWriter.java:591) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.stream.JsonWriter.value(JsonWriter.java:419) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:762) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:714) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.Streams.write(Streams.java:72) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.Gson.toJson(Gson.java:745) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	... 8 more
+[12:29:45] [Server thread/ERROR]: 	Cause of unexpected exception was
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:347) ~[?:?]
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242) ~[?:?]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:312) ~[?:?]
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:290) ~[?:?]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:131) ~[?:?]
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:141) ~[?:?]
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:223) ~[?:?]
+	at com.google.gson.stream.JsonWriter.string(JsonWriter.java:591) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.stream.JsonWriter.value(JsonWriter.java:419) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:762) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:776) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:714) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.internal.Streams.write(Streams.java:72) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.Gson.toJson(Gson.java:745) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at com.google.gson.Gson.toJson(Gson.java:703) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.AdvancementDataPlayer.b(AdvancementDataPlayer.java:245) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayerFile(PlayerList.java:479) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.players.PlayerList.savePlayers(PlayerList.java:1015) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1221) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1035) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:46] [Server thread/ERROR]: Could not save crash report to .\crash-reports\crash-2021-10-31_12.29.46-server.txt
+java.io.FileNotFoundException: .\crash-reports\crash-2021-10-31_12.29.46-server.txt (ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÂ·¾¶¡£)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:291) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:234) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at net.minecraft.CrashReport.a(CrashReport.java:161) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1069) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:46] [Server thread/ERROR]: We were unable to save this crash report to disk.
+[12:29:46] [Server thread/INFO]: Stopping server
+[12:29:46] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.0-dev+221-1556b91
+[12:29:46] [Server thread/INFO]: [CMILib] Disabling CMILib v1.0.4.2
+[12:29:46] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.0-dev+221-1556b91
+[12:29:46] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.19.0-dev+221-1556b91
+[12:29:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+221-1556b91
+[12:29:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[12:29:46] [Server thread/ERROR]: Õâ¿ÉÒÔÈÃÄãµÄ·þÎñÆ÷Á¢¼´ÖØÔØ¡£µ«ÄãÎªÊ²Ã´ÒªÕâÑù×öÄØ£¿Çë²»ÒªÖ¸ÍûEssentialsXÍÅ¶Ó»áÌá¹©Ê¹ÓÃ/reloadÃüÁîºó·¢ÉúÎÊÌâµÄÈÎºÎÖ§³Ö¡£
+[12:29:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.1.5
+[12:29:46] [Server thread/INFO]: [ZMusic] Disabling ZMusic v2.0.7
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚÐ¶ÔØÖÐ....[m
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ×÷Õß: ÕæÐÄ[m
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²©¿Í£ºwww.zhenxin.xyz[m
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mQQ£º1307993674[m
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ½»Á÷Èº£º1032722724[m
+[12:29:46] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þÒÑÐ¶ÔØÍê³É![m
+[12:29:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[12:29:46] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.1-SNAPSHOT-b530
+[12:29:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.0.1
+[12:29:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:29:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.1
+[12:29:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[12:29:46] [Server thread/INFO]: [FOLFriends] Disabling FOLFriends v1.2.9
+[12:29:46] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.10
+[12:29:46] [Server thread/INFO]: [BetterInputOutput] Disabling BetterInputOutput v1.03build39
+[12:29:46] [Server thread/INFO]: [BetterInputOutput] Thank you and goodbye. :D
+[12:29:46] [Server thread/INFO]: Saving players
+[12:29:46] [Server thread/INFO]: Normally_422 lost connection: Server closed
+[12:29:46] [Server thread/INFO]: Normally_422 left the game
+[12:29:46] [Server thread/INFO]: Saving worlds
+[12:29:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [5, -20]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [6, -20]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [1, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [2, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [3, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [4, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [5, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [6, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [-16, -6]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [-17, -21]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [-17, -20]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [-17, -17]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [-17, -15]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [-17, -14]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-336/ERROR]: Failed to store chunk [-17, -13]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [-17, -12]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:48] [IO-Worker-337/ERROR]: Failed to store chunk [-17, -10]
+java.io.IOException: ´ÅÅÌ¿Õ¼ä²»×ã¡£
+	at sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:109) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:854) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:837) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFile.a(RegionFile.java:331) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:442) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.RegionFileCache.write(RegionFileCache.java:125) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:153) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:143) ~[spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:61) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.g(SourceFile:91) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[12:29:49] [IO-Worker-336/ERROR]: Cound not schedule mailbox
+java.util.concurrent.RejectedExecutionException: Task IOWorker-chunk 2 false rejected from java.util.concurrent.ThreadPoolExecutor@11fe7435[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 49554]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2057) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:827) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1357) ~[?:?]
+	at net.minecraft.util.thread.ThreadedMailbox.h(SourceFile:135) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:105) [spigot-1.17.1.jar:3198-Spigot-18c71bf-0abf420]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]

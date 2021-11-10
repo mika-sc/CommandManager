@@ -1,0 +1,207 @@
+[16:50:30] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:50:30] [Server thread/INFO]: Loading properties
+[16:50:30] [Server thread/INFO]: Default game type: SURVIVAL
+[16:50:30] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:50:31] [Server thread/INFO]: Debug logging is disabled
+[16:50:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:50:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:50:31] [Server thread/INFO]: Generating keypair
+[16:50:32] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
+[16:50:32] [Server thread/INFO]: Using default channel type
+[16:50:34] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:50:34] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[16:50:34] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1
+[16:50:34] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1 is now loaded, injecting!
+[16:50:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[16:50:36] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[16:50:36] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[16:50:36] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[16:50:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:50:37] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[16:50:37] [Server thread/INFO]: [MyFirstPlugin] Loading MyFirstPlugin v1.0-alpha2-build29
+[16:50:37] [Server thread/INFO]: [ZMusic] Loading ZMusic v2.0.5
+[16:50:37] [Server thread/INFO]: [ZMusic-Addon] Loading ZMusic-Addon v1.2
+[16:50:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:50:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:50:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:50:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:50:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:50:37] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[16:50:37] [Server thread/INFO]: Preparing level "world"
+[16:50:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:50:37] [Server thread/INFO]: View Distance: 10
+[16:50:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:50:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:50:37] [Server thread/INFO]: Max Entity Collisions: 8
+[16:50:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:37] [Server thread/INFO]: Anti X-Ray: true
+[16:50:37] [Server thread/INFO]: 	Engine Mode: 1
+[16:50:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:50:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:50:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Mob Spawn Range: 4
+[16:50:37] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:37] [Server thread/INFO]: Random Lighting Updates: false
+[16:50:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:50:37] [Server thread/INFO]: Structure Info Saving: true
+[16:50:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:50:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:50:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:50:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:50:37] [Server thread/INFO]: Clear tick list: false
+[16:50:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:50:37] [Server thread/INFO]: View Distance: 10
+[16:50:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:50:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:50:37] [Server thread/INFO]: Max Entity Collisions: 8
+[16:50:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:37] [Server thread/INFO]: Anti X-Ray: true
+[16:50:37] [Server thread/INFO]: 	Engine Mode: 1
+[16:50:37] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:50:37] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:50:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:37] [Server thread/INFO]: Mob Spawn Range: 4
+[16:50:37] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:37] [Server thread/INFO]: Random Lighting Updates: false
+[16:50:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:50:37] [Server thread/INFO]: Structure Info Saving: true
+[16:50:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:50:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:37] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:50:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:50:37] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:50:37] [Server thread/INFO]: Clear tick list: false
+[16:50:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:50:38] [Server thread/INFO]: View Distance: 10
+[16:50:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:50:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:50:38] [Server thread/INFO]: Max Entity Collisions: 8
+[16:50:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:38] [Server thread/INFO]: Anti X-Ray: true
+[16:50:38] [Server thread/INFO]: 	Engine Mode: 1
+[16:50:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:50:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:50:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:38] [Server thread/INFO]: Mob Spawn Range: 4
+[16:50:38] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:38] [Server thread/INFO]: Random Lighting Updates: false
+[16:50:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:50:38] [Server thread/INFO]: Structure Info Saving: true
+[16:50:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:50:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:50:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:50:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:50:38] [Server thread/INFO]: Clear tick list: false
+[16:50:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: -782673928299996580)
+[16:50:39] [Server thread/INFO]: Preparing spawn area: 3%
+[16:50:40] [Server thread/INFO]: Preparing spawn area: 46%
+[16:50:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: -782673928299996580)
+[16:50:42] [Server thread/INFO]: Preparing spawn area: 44%
+[16:50:43] [Server thread/INFO]: Preparing spawn area: 92%
+[16:50:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: -782673928299996580)
+[16:50:44] [Server thread/INFO]: Preparing spawn area: 50%
+[16:50:44] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[16:50:45] [Server thread/INFO]: HikariPool-1 - Starting...
+[16:50:46] [Server thread/INFO]: checkpointClose start
+[16:50:46] [Server thread/INFO]: checkpointClose synched
+[16:50:46] [Server thread/INFO]: checkpointClose script done
+[16:50:46] [Server thread/INFO]: checkpointClose end
+[16:50:46] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[16:50:46] [Server thread/INFO]: HikariPool-1 - Start completed.
+[16:50:49] [Server thread/INFO]: 
+ 
+[0;30;1m[]=====[[0;37;22mEnabling AdvancedBan[0;30;1m]=====[]
+[0;30;1m| [0;31;1mInformation:
+[0;30;1m|   [0;31;1mName: [0;37;22mAdvancedBan
+[0;30;1m|   [0;31;1mDeveloper: [0;37;22mLeoko
+[0;30;1m|   [0;31;1mVersion: [0;37;22m2.3.0
+[0;30;1m|   [0;31;1mStorage: [0;37;22mHSQLDB (local)
+[0;30;1m| [0;31;1mSupport:
+[0;30;1m|   [0;31;1mGithub: [0;37;22mhttps://github.com/DevLeoko/AdvancedBan/issues
+[0;30;1m|   [0;31;1mDiscord: [0;37;22mhttps://discord.gg/ycDG6rS
+[0;30;1m| [0;31;1mTwitter: [0;37;22m@LeokoGar
+[0;30;1m| [0;31;1mUpdate:
+[0;30;1m|   [0;37;22mYou have the newest version
+[0;30;1m[]================================[][m
+ [m
+[16:50:49] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1
+[16:50:49] [Server thread/INFO]: [MyFirstPlugin] Enabling MyFirstPlugin v1.0-alpha2-build29
+[16:50:49] [Server thread/INFO]: ¡ìe[MyFirstPlugin] MFP has enabled!Enjoy it!------By avery
+[16:50:49] [Server thread/INFO]: [ZMusic] Enabling ZMusic v2.0.5
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ¼ÓÔØÖÐ....[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ×¢²áModÍ¨ÐÅÆµµÀ...[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mAllMusic[m][0;32;1m ÆµµÀ×¢²áÍê±Ï.[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m-- [m[[0;33;1mAudioBuffer[m][0;32;1m ÆµµÀ×¢²áÍê±Ï.[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1mÎ´ÕÒµ½[0;33;1mPlaceholderAPI[0;31;1m, [0;33;1mPlaceholderAPI[0;31;1mÏà¹Ø¹¦ÄÜ²»ÉúÐ§.[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1mÎ´ÕÒµ½Vault, ¾­¼ÃÏà¹Ø¹¦ÄÜ²»ÉúÐ§.[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑ¼ì²âµ½ViaVersion, ¸ß°æ±¾×ª·¢¹¦ÄÜÉúÐ§.[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·þÎñ¶Ë°æ±¾µÍÓÚ1.9£¬²»Ö§³ÖBossBar[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·þÎñ¶Ë°æ±¾µÍÓÚ1.12£¬²»Ö§³ÖHudÏÔÊ¾[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1m¼ì²âµ½µ±Ç°·þÎñ¶Ë°æ±¾µÍÓÚ1.12£¬²»Ö§³Ö½ø¶È[m
+[16:50:49] [Server thread/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³É¹¦¼ÓÔØÅäÖÃÎÄ¼þ![m
+[16:50:49] [Server thread/INFO]: [ZMusic-Addon] Enabling ZMusic-Addon v1.2
+[16:50:49] [Server thread/WARN]: [ZMusic-Addon] ¡ìcÇëÎðÔÚ×Ó·þ°²×°ZMusic²å¼þ
+[16:50:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:50:50] [Server thread/INFO]: Done (12.895s)! For help, type "help" or "?"
+[16:50:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[16:50:50] [Server thread/WARN]: [ViaVersion] This version of Minecraft is over half a decade old and support for it will be fully dropped eventually. Please upgrade to a newer version to avoid encountering bugs and stability issues that have long been fixed.
+[16:50:50] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:50:50] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ³¢ÊÔµÇÂ¼ÍøÒ×ÔÆÒôÀÖ...[m
+[16:50:51] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;31;1mµÇÂ¼Ê§°Ü: 501[m
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: java.lang.NullPointerException
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.lambda$loginNetease$1(OtherUtils.java:157)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at cn.iqianye.mc.zmusic.utils.OtherUtils.loginNetease(OtherUtils.java:177)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at cn.iqianye.mc.zmusic.ZMusic.lambda$loadEnd$0(ZMusic.java:61)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[16:50:51] [Craft Scheduler Thread - 0/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[16:50:51] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÕýÔÚ¼ì²é¸üÐÂ...[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÒÑÊÇ×îÐÂ°æ±¾![m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m³õÊ¼»¯ÓïÑÔÏµÍ³...[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼þzh_CN[ÖÐÎÄ (ÖÐ¹ú)]¼ÓÔØÍê³É[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mÓïÑÔÎÄ¼þ×÷Õß: ÕæÐÄ[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ×÷Õß: ÕæÐÄ[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²©¿Í£ºwww.zhenxin.xyz[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1mQQ£º1307993674[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þ½»Á÷Èº£º1032722724[m
+[16:50:52] [Craft Scheduler Thread - 0/INFO]: [0;36;1mZMusic [0;33;1m>>> [m[0;32;1m²å¼þÒÑ¼ÓÔØÍê³É![m

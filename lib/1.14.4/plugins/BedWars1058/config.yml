@@ -1,0 +1,192 @@
+# BedWars1058 by andrei1058. https://www.spigotmc.org/members/39904/
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/home
+
+serverType: MULTIARENA
+language: en
+disabled-languages:
+- your language iso here
+storeLink: https://www.spigotmc.org/resources/authors/39904/
+lobbyServer: hub
+globalChat: false
+formatChat: true
+debug: false
+mark-leave-as-abandon: false
+party-settings:
+  enable-party-cmd: true
+  allow-parties: true
+  alessioDP-choose-arena-rank: 10
+scoreboard-settings:
+  sidebar:
+    enable-lobby-sidebar: true
+    enable-game-sidebar: true
+    title-refresh-interval: 4
+    placeholders-refresh-interval: 20
+  player-list:
+    format-lobby-list: false
+    format-waiting-list: false
+    format-starting-list: false
+    format-playing-list: true
+    format-restarting-list: true
+    names-refresh-interval: 1200
+  health:
+    display-in-tab: true
+    animation-refresh-interval: 300
+rejoin-time: 300
+re-spawn-invulnerability: 4000
+countdowns:
+  game-start-regular: 40
+  game-start-half-arena: 25
+  game-start-shortened: 5
+  game-restart: 15
+  player-re-spawn: 5
+  next-event-beds-destroy: 360
+  next-event-dragon-spawn: 600
+  next-event-game-end: 120
+shout-cmd-cooldown: 30
+server-ip: yourServer.Com
+tnt-jump-settings:
+  barycenter-alteration-in-y: 0.5
+  strength-reduction-constant: 5
+  y-axis-reduction-constant: 2
+  damage-self: 1
+  damage-teammates: 5
+  damage-others: 10
+database:
+  enable: false
+  host: localhost
+  port: 3306
+  database: bedwars1058
+  user: root
+  pass: cheese
+  ssl: false
+performance-settings:
+  rotate-generators: true
+inventories:
+  disable-crafting-table: true
+  disable-enchanting-table: true
+  disable-furnace: true
+  disable-brewing-stand: true
+  disable-anvil: true
+lobby-items:
+  stats:
+    command: bw stats
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  arena-selector:
+    command: bw gui
+    material: CHEST
+    data: 5
+    enchanted: true
+    slot: 4
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
+pre-game-items:
+  stats:
+    command: bw stats
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
+spectator-items:
+  teleporter:
+    command: bw teleporter
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
+arena-gui:
+  settings:
+    inv-size: 27
+    show-playing: true
+    use-slots: 10,11,12,13,14,15,16
+  waiting:
+    material: LIME_CONCRETE
+    data: 5
+    enchanted: false
+  starting:
+    material: YELLOW_CONCRETE
+    data: 4
+    enchanted: true
+  playing:
+    material: RED_CONCRETE
+    data: 14
+    enchanted: false
+  skipped-slot:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 15
+    enchanted: false
+stats-gui:
+  inv-size: 27
+  wins:
+    material: DIAMOND
+    data: 0
+    slot: 10
+  losses:
+    material: REDSTONE
+    data: 0
+    slot: 11
+  kills:
+    material: IRON_SWORD
+    data: 0
+    slot: 12
+  deaths:
+    material: SKELETON_SKULL
+    data: 0
+    slot: 13
+  final-kills:
+    material: DIAMOND_SWORD
+    data: 0
+    slot: 14
+  final-deaths:
+    material: SKELETON_SKULL
+    data: 1
+    slot: 15
+  beds-destroyed:
+    material: RED_BED
+    data: 0
+    slot: 16
+  first-play:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    slot: 21
+  games-played:
+    material: CHEST
+    data: 0
+    slot: 22
+  last-play:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    slot: 23
+start-items-per-group:
+  Default:
+  - WOODEN_SWORD
+allowed-commands:
+- shout
+- bw
+- leave
+use-experimental-team-assigner: true
+bungee-settings:
+  games-before-restart: 30
+  restart-cmd: restart
+  auto-scale-clone-limit: 5
+  lobby-sockets:
+  - 0.0.0.0:2019
+  server-id: bw1

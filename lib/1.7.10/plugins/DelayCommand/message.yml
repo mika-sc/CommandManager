@@ -1,0 +1,32 @@
+trver: 1.24.100
+PluEnaen: "\xa7e[DelayCommand] \xa72DCMD Version 1.24.100 has been enabled.------By\
+  \ Normally_422"
+PluEnacn: "\xa7e[DelayCommand] \xa72DCMD v1.24.100\u5df2\u52a0\u8f7d\uff01------By\
+  \ Normally_422"
+PluDisaen: "\xa7e[DelayCommand] \xa72Goodbye. :D"
+PluDisacn: "\xa7e[DelayCommand] \xa72DCMD\u5df2\u5173\u95ed\uff01"
+LoCiten: "\xa7e[DCMD] \xa74Error: CitizensII not found! DCMD will disable."
+LoCitcn: "\xa7e[DCMD] \xa74Error: \u672a\u627e\u5230CitizensII\u63d2\u4ef6\uff0cDCMD\u5373\
+  \u5c06\u5173\u95ed."
+LoComen: "\xa7e[DCMD] \xa74Error: CommandNPC not found! DCMD will disable."
+LoComcn: "\xa7e[DCMD] \xa74Error: \u672a\u627e\u5230CommandNPC\u63d2\u4ef6\uff0cDCMD\u5373\
+  \u5c06\u5173\u95ed."
+Ver: "\xa7eDelayCommand[DCMD] \xa72Version \xa731.2 Release \xa734\xa72, Build \xa7\
+  3100 \xa72(v\xa731.24.100\xa72),By Normally_422"
+NorOPen: "\xa7e[DCMD] \xa74Sorry! You don't have enough permission to do this."
+NorOPcn: "\xa7e[DCMD] \xa74\u4f60\u6ca1\u6709\u8db3\u591f\u7684\u6743\u9650\u6267\u884c\
+  \u6b64\u547d\u4ee4\uff01"
+CmdSeten: "\xa7e[DCMD] \xa72Command set successfully."
+CmdSetcn: "\xa7e[DCMD] \xa72\u547d\u4ee4\u6210\u529f\u8bbe\u7f6e\uff01"
+CmdLisen: "\xa7e[DCMD] \xa72Player: \xa73%Player%, \xa72Command: \xa73%Command% \xa7\
+  2."
+CmdLiscn: "\xa7e[DCMD] \xa72\u73a9\u5bb6: \xa73%Player%, \xa72\u547d\u4ee4: \xa73%Command%\
+  \ \xa72."
+PapiUnfen: "\xa7e[DelayCommand] \xa74PlaceholderAPI not found!"
+CmdDelen: "\xa7e[DCMD] \xa72Command delete successfully."
+CmdDelcn: "\xa7e[DCMD] \xa72\u547d\u4ee4\u6210\u529f\u5220\u9664\uff01"
+PapiUnfcn: "\xa7e[DelayCommand] \xa74\u672a\u627e\u5230PlaceholderAPI\uff01PAPI\u529f\
+  \u80fd\u5c06\u4e0d\u751f\u6548\uff01"
+WrngCmdcn: "\xa7e[DCMD] \xa74\u8bed\u6cd5\u9519\u8bef\uff01\u8f93\u5165/dcmd help\u67e5\
+  \u8be2\u547d\u4ee4."
+WrngCmden: "\xa7e[DCMD] \xa74Wrong args! Type /dcmd help for helps."
